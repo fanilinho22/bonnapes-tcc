@@ -1,0 +1,88 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-usuario {
+    margin: 5%;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    align-items: flex-start;
+    flex: 1;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.usuario {
+  border: black;
+}
+
+.visitados {
+  align-items: center;
+
+
+}
+
+.interesse {
+  align-items: center;
+  margin: 3%;
+
+}
+
+.useres {
+  color: white;
+  background-color: #027fc2;
+  border-radius: 10px;
+  border-color: black;
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-family: Tahoma;
+  width: 800px;
+  height: auto;
+}
+
+.imager {
+  float: left;
+  padding-right: 25px;
+  border-radius: 25px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 1px solid white;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+}
