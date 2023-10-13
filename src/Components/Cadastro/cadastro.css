@@ -1,0 +1,96 @@
+.cadastro {
+    justify-content: center;
+    background-color: #0B9B8A;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.page-cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    width: 1000px;
+    margin-top: 10%;
+    border: 3px #144351 solid;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.inputas{
+    border: 1px black solid;
+    border-radius: 15px;
+    height: 35px;
+    width: 400px;
+}
+
+.cadastro-card label{
+    font-size: 20px;
+}
+
+.cadastro-card :link{
+    font-size: 20px;
+}
+
+.cadastro-card input {
+    font-size: 20px;
+}
+
+.cadastro-card button{
+    color: white;
+    background-color: #DF5F57;
+    margin-top: 20px;
+    border-radius: 15px;
+    height: 35px;
+    width: 350px;
+    font-size: 20px;
+}
+
+.cadastro-card hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px #144351 solid;
+    width: 400px;
+}
+
+.links{
+    color: #DF5F57;
+    text-decoration: none;
+}
+
+.ou{
+    display: flex;
+    align-items: center;
+}
+
+.ou p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cima-cadastro{
+    display: flex;
+    
+}
+
+.baixo-cadastro{
+    display: flex;
+    
+}
+
+.card-input{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.card-input label{
+    padding-left: 10px;
+}

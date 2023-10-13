@@ -10,14 +10,98 @@
     padding-left: 10%;
 }
 
-.apresentaImagem{
+.apresentaImagem {
     display: flex;
     align-items: center;
     padding-left: 20%;
 }
 
-.inicio{
+.inicio {
     display: flex;
     align-items: center;
     flex-direction: row;
+    height: 900px;
+}
+
+.inicio p {
+    font-size: 45px;
+}
+
+.abaixo {
+    display: flex;
+    align-items: center;
+    background-color: #0B9B8A;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.cad {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 5%;
+    flex-direction: row;
+}
+
+.pequenos-cards {
+    color: white;
+    background-color: #0B9B8A;
+
+}
+
+.equipe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.titulo-equipe {
+    background-color: #025349;
+    color: white;
+    width: 800px;
+    border-radius: 50px;
+}
+
+.pessoas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 50px;
+    margin-left: 15%;
+
+}
+
+.pessoas-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: #025349 1px solid;
+    border-radius: 15%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height: 250px;
+    width: 200px;
+}
+
+.texto-projeto{
+    background-color: #EB8E88;
+    height: auto;
+    width: 500px;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 15%;
+}
+
+.texto-projeto p{
+    font-size: 35px;
+}
+
+.equipe-conteudo{
+    display: flex;
+    align-items: center;
+    
 }

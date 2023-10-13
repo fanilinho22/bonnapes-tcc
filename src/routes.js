@@ -1,18 +1,20 @@
 import { Route, BrowserRouter, Routes } from "react-router-dom";
-import Dicas from './Components/Dicas/Dicas'
 import Home from "./Components/Home/Home";
 import Usuario from "./Components/Usuario/User"
-import Publicacoes from "./Components/Publicacoes/Publicacoes"
+import Login from "./Components/Login/Login"
+import Cadastro from "./Components/Cadastro/Cadastro"
+import MainPage from "./Components/MainPage/MainPage"
 
-export default function Routas(){
-    return(
-        
+export default function Routas() {
+    return (
+
         <BrowserRouter>
             <Routes>
-                <Route element={<Home />} path="/" exact />
+                <Route element={<Login />} path="/" exact />
+                <Route element={<Cadastro />} path="/Cadastro" />
+                <Route element={<Home />} path="/sobre" />
+                <Route element={<MainPage />} path="/home" />
                 <Route element={<Usuario />} path="/usuario" />
-                <Route element={<Publicacoes />} path="/publicacoes" />
-                <Route element={<Dicas/>} path="/dicas" />
 
             </Routes>
         </BrowserRouter>
