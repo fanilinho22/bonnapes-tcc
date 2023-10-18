@@ -1,0 +1,36 @@
+.mainPage{
+    justify-content: center;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav-bar-box{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 70px;
+    width: 500px;
+    padding-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #0B9B8A;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.nav-bar-box a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none; /* Remova a linha abaixo do texto */
+    transition: color 0.3s; /* Transição de cor ao passar o mouse */
+  
+    /* Efeito no hover */
+    &:hover {
+      color: #DF7157; /* Cor do texto quando o mouse passa por cima */
+    }
+}

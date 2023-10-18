@@ -18,8 +18,7 @@
     flex-direction: column;
     height: 500px;
     width: 500px;
-    margin-top: 10%;
-    
+    margin-top: 5%;
     border: 3px #144351 solid;
     border-radius: 15px;
     background-color: white;
@@ -91,6 +90,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 10%;
+    padding-top: 5%;
    padding-right: 10%; 
 }
