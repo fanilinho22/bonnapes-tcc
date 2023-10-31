@@ -1,0 +1,22 @@
+.App{
+    justify-content: center;
+}
+
+.divasso{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 500px;
+}
+
+.divo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B9B8A;
+    flex-direction: row;
+    width: 500px;
+    height: 10%;
+    border-radius: 15px;
+}

@@ -27,7 +27,7 @@ function Page() {
                     <a><Link to="/Sugestoes">Sugestão</Link></a>
                 </div>
                 <div className='nav-bar-box'>
-                    <a><Link to="/baixar-receitas">Baixar receitas</Link></a>
+                    <a><Link to="/baixar-receitas">Calculadora nutricional</Link></a>
                 </div>
             </div>
 

@@ -1,0 +1,119 @@
+.App {
+    justify-content: center;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B9B8A;
+    width: 60%;
+    height: 50%;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.entrada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.entradinhas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.entradinhas > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.entradinhas h1 {
+    color: #FFD7CD;
+}
+
+.cadg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px white solid;
+    border-radius: 15px;
+    height: 35px;
+    width: 300px;
+}
+
+.butao{
+    color: white;
+    background-color: #DF5F57;
+    border: 1px #DF5F57 solid;
+    margin-top: 20px;
+    border-radius: 15px;
+    height: 35px;
+    width: 350px;
+    font-size: 20px;
+}
+
+.resposta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #DF5F57;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    width: 30%;
+}
+.resposta h1, h3 {
+    color: #FFD7CD;
+}
+
+.resposta p{
+    color: #FFD7CD;
+    background-color: #0B9B8A;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.respostinha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.respostinha2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.divinha{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5px;
+    width: 150px;
+    height: auto;
+
+}
