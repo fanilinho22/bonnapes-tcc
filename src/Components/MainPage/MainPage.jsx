@@ -15,19 +15,19 @@ function Page() {
             
             <div className='nav-bar'>
                 <div className='nav-bar-box'>
-                    <a><Link to="/home">Pesquisar receitas</Link></a>
+                    <a><Link to="/Pesquisar-receitas">Pesquisar receitas</Link></a>
                 </div>
                 <div className='nav-bar-box'>
-                    <a><Link to="/home">Receitas salvas</Link></a>
+                    <a><Link to="/Receitas-salvas">Receitas salvas</Link></a>
                 </div>
                 <div className='nav-bar-box'>
-                    <a><Link to="/home">Conversor de medidas</Link></a>
+                    <a><Link to="/conversor-de-medida">Conversor de medidas</Link></a>
                 </div>
                 <div className='nav-bar-box'>
-                    <a><Link to="/home">Sugestão</Link></a>
+                    <a><Link to="/Sugestoes">Sugestão</Link></a>
                 </div>
                 <div className='nav-bar-box'>
-                    <a><Link to="/home">Baixar receitas</Link></a>
+                    <a><Link to="/baixar-receitas">Baixar receitas</Link></a>
                 </div>
             </div>
 
