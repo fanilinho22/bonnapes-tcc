@@ -1,0 +1,778 @@
+[
+    {
+        "id": 1,
+        "titulo": "Frango ao Curry",
+        "ingredientes": [
+            "2 peitos de frango",
+            "1 cebola",
+            "2 dentes de alho",
+            "2 colheres de sopa de curry em pó",
+            "1 lata de leite de coco",
+            "1 colher de sopa de óleo de coco",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "1. Corte os peitos de frango em cubos e reserve.\n2. Em uma panela, aqueça o óleo de coco e refogue a cebola e o alho picados até ficarem dourados.\n3. Adicione o curry em pó e mexa por 1 minuto.\n4. Acrescente o frango e cozinhe até dourar.\n5. Despeje o leite de coco na panela e misture bem. Tempere com sal e pimenta a gosto.\n6. Cozinhe em fogo médio por 15-20 minutos, mexendo ocasionalmente, até o frango ficar macio e o molho engrossar.\n7. Sirva o frango ao curry com arroz branco ou naan.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 2,
+        "titulo": "Salada de Quinoa com Vegetais",
+        "ingredientes": [
+            "Quinoa cozida",
+            "Pepinos",
+            "Tomates",
+            "Cebolas vermelhas",
+            "Espinafre",
+            "Abacate",
+            "Azeite de oliva",
+            "Suco de limão",
+            "Sal",
+            "Pimenta"
+        ],
+        "modo_preparo": "Combine quinoa cozida, pepinos, tomates, cebolas vermelhas, espinafre e abacate. Tempere com azeite de oliva, suco de limão, sal e pimenta.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 3,
+        "titulo": "Salmão Grelhado com Aspargos",
+        "ingredientes": [
+            "Salmão",
+            "Aspargos",
+            "Azeite de oliva",
+            "Limão",
+            "Alho",
+            "Ervas frescas (por exemplo, manjericão, salsa, tomilho)"
+        ],
+        "modo_preparo": "Grelhe o salmão com os aspargos, temperando com azeite de oliva, suco de limão, alho e ervas frescas a gosto.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 4,
+        "titulo": "Frango Assado com Legumes",
+        "ingredientes": [
+            "Pedaços de frango",
+            "Cenouras",
+            "Batatas",
+            "Brócolis",
+            "Ervas frescas (por exemplo, alecrim, tomilho)",
+            "Alho"
+        ],
+        "modo_preparo": "Asse os pedaços de frango com cenouras, batatas e brócolis. Tempere com ervas frescas e alho a gosto.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 5,
+        "titulo": "Sopa de Abóbora",
+        "ingredientes": [
+            "Abóbora",
+            "Cebolas",
+            "Caldo de legumes",
+            "Temperos a gosto (por exemplo, sal, pimenta, noz-moscada)"
+        ],
+        "modo_preparo": "Cozinhe a abóbora e as cebolas em caldo de legumes até que fiquem macias. Tempere com sal, pimenta e noz-moscada a gosto. Em seguida, bata a mistura no liquidificador até obter uma sopa cremosa. Sirva quente.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 6,
+        "titulo": "Tacos de Peixe com Coleslaw",
+        "ingredientes": [
+            "Peixe branco (por exemplo, tilápia ou pargo)",
+            "Tortilhas de milho",
+            "Repolho",
+            "Molho de iogurte (ou maionese, alho, mostarda, suco de limão)",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "Grelhe o peixe branco até que esteja cozido e desfie em pedaços menores. Em uma tigela, prepare o coleslaw, que é uma salada de repolho, misturando o repolho com o molho de iogurte (ou maionese, alho, mostarda e suco de limão) e temperando com sal e pimenta a gosto. Em seguida, aqueça as tortilhas de milho, recheie-as com o peixe grelhado desfiado e a salada de coleslaw. Sirva os tacos de peixe prontos.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 7,
+        "titulo": "Omelete de Espinafre e Tomate",
+        "ingredientes": [
+            "Ovos",
+            "Espinafre",
+            "Tomates",
+            "Queijo (por exemplo, queijo cheddar ou queijo feta)",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "Prepare uma omelete batendo os ovos em uma tigela. Em seguida, adicione o espinafre, os tomates e o queijo à mistura de ovos. Tempere a gosto com sal e pimenta. Aqueça uma frigideira antiaderente e despeje a mistura de ovos nela. Cozinhe até que a omelete esteja firme e o queijo derretido. Dobre ao meio e sirva.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 8,
+        "titulo": "Salada de Lentilha",
+        "ingredientes": [
+            "Lentilhas cozidas",
+            "Pimentões",
+            "Cebolas roxas",
+            "Aipo",
+            "Coentro",
+            "Azeite de oliva",
+            "Vinagre",
+            "Cominho",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "Misture as lentilhas cozidas com pimentões, cebolas roxas, aipo e coentro em uma tigela. Tempere a salada com azeite de oliva, vinagre, cominho, sal e pimenta a gosto. Mexa bem para garantir que os ingredientes estejam uniformemente cobertos pelos temperos. Sirva fria.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 9,
+        "titulo": "Risoto de Cogumelos",
+        "ingredientes": [
+            "Arroz integral",
+            "Cogumelos (por exemplo, cogumelos portobello ou cogumelos shiitake)",
+            "Caldo de cogumelos",
+            "Cebolas",
+            "Queijo parmesão",
+            "Ervas frescas (por exemplo, manjericão, salsa, tomilho)",
+            "Azeite de oliva",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "Cozinhe o arroz integral em caldo de cogumelos, adicionando os cogumelos e as cebolas picadas. Cozinhe até que o arroz esteja macio e cremoso, e os cogumelos estejam cozidos. Tempere com sal e pimenta a gosto. No final, adicione queijo parmesão ralado e ervas frescas picadas. Mexa bem e sirva quente.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 10,
+        "titulo": "Peito de Frango Grelhado com Brócolis",
+        "ingredientes": [
+            "Peito de frango",
+            "Brócolis",
+            "Limão",
+            "Alho",
+            "Azeite de oliva",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "Grelhe o peito de frango até que esteja cozido e suculento. Enquanto isso, cozinhe o brócolis no vapor até que fique macio. Tempere o frango grelhado e o brócolis cozido no vapor com limão espremido, alho picado, azeite de oliva, sal e pimenta a gosto. Sirva quente.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 11,
+        "titulo": "Macarrão de Abobrinha com Pesto",
+        "ingredientes": [
+            "Abobrinha (para fazer macarrão de abobrinha)",
+            "Manjericão fresco",
+            "Nozes",
+            "Azeite de oliva",
+            "Queijo parmesão ralado",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "Use um espiralizador para criar macarrão de abobrinha a partir das abobrinhas. Em um processador de alimentos, misture o manjericão fresco, as nozes, o azeite de oliva e o queijo parmesão ralado para fazer o molho pesto. Tempere com sal e pimenta a gosto. Misture o macarrão de abobrinha com o molho pesto saudável. Sirva quente ou frio, conforme preferir.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 12,
+        "titulo": "Salmão ao Molho de Mostarda e Mel",
+        "ingredientes": [
+            "Filés de salmão",
+            "Mostarda",
+            "Mel",
+            "Alho picado",
+            "Suco de limão",
+            "Azeite de oliva",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "Pré-aqueça o forno e asse os filés de salmão. Enquanto o salmão assa, prepare o molho misturando mostarda, mel, alho picado, suco de limão, azeite de oliva, sal e pimenta em uma tigela. Quando o salmão estiver quase pronto, retire-o do forno e regue-o com o molho de mostarda e mel. Retorne ao forno e asse até que o salmão esteja completamente cozido e o molho esteja caramelizado. Sirva quente.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 13,
+        "titulo": "Salada de Quinoa e Beterraba",
+        "ingredientes": [
+            "Quinoa cozida",
+            "Beterraba assada",
+            "Rúcula",
+            "Nozes",
+            "Queijo de cabra",
+            "Vinagrete (a base de azeite de oliva, vinagre, mostarda, sal e pimenta)"
+        ],
+        "modo_preparo": "Misture a quinoa cozida, beterraba assada em pedaços, rúcula, nozes e queijo de cabra em uma tigela. Regue a salada com o vinagrete feito a partir de azeite de oliva, vinagre, mostarda, sal e pimenta a gosto. Mexa bem para garantir que os ingredientes estejam bem misturados. Sirva frio.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 14,
+        "titulo": "Frango ao Curry com Couve-Flor",
+        "ingredientes": [
+            "Pedaços de frango",
+            "Curry em pó",
+            "Couve-flor",
+            "Arroz integral",
+            "Azeite de oliva",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "Cozinhe os pedaços de frango em uma frigideira com azeite de oliva e curry em pó até que o frango esteja cozido e o curry esteja bem distribuído. Enquanto o frango está cozinhando, cozinhe a couve-flor em água fervente até ficar macia. Sirva o frango ao curry e a couve-flor com arroz integral cozido. Tempere a gosto com sal e pimenta.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 15,
+        "titulo": "Tacos de Frango com Abacate",
+        "ingredientes": [
+            "Peitos de frango",
+            "Tortilhas de trigo integral",
+            "Abacate",
+            "Tomate",
+            "Coentro",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "Grelhe os peitos de frango até que estejam cozidos. Em seguida, corte o frango em tiras ou pedaços menores. Monte os tacos: coloque as tiras de frango grelhado nas tortilhas de trigo integral, adicione fatias de abacate, tomate e coentro picado. Tempere com sal e pimenta a gosto. Dobre as tortilhas e sirva.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 16,
+        "titulo": "Espaguete de Abóbora com Molho de Tomate",
+        "ingredientes": [
+            "Abóbora espaguete",
+            "Tomates frescos",
+            "Cebola",
+            "Alho",
+            "Azeite de oliva",
+            "Manjericão fresco",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "Cozinhe a abóbora espaguete como massa, seguindo as instruções do pacote ou até que esteja al dente. Enquanto a abóbora cozinha, prepare o molho de tomate. Refogue cebola e alho picados em azeite de oliva até que estejam macios. Adicione tomates frescos picados e cozinhe até que eles se desmanchem e o molho engrosse. Tempere com sal, pimenta e manjericão fresco picado. Escorra a abóbora espaguete e sirva coberta com o molho de tomate.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 17,
+        "titulo": "Salada de Atum com Grão-de-Bico",
+        "ingredientes": [
+            "Atum enlatado",
+            "Grão-de-Bico cozido",
+            "Pepino",
+            "Tomate",
+            "Cebola",
+            "Azeitonas",
+            "Azeite de oliva",
+            "Suco de limão",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "Misture o atum enlatado escorrido, grão-de-bico cozido, pepino picado, tomate picado, cebola picada e azeitonas em uma tigela. Tempere a salada com azeite de oliva, suco de limão, sal e pimenta a gosto. Mexa bem para combinar todos os ingredientes. Sirva fria.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 18,
+        "titulo": "Batata-Doce Assada com Feijão Preto",
+        "ingredientes": [
+            "Batatas-doces",
+            "Feijão preto cozido",
+            "Abacate",
+            "Salsa (coentro ou cebolinha verde)",
+            "Azeite de oliva",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "Asse as batatas-doces até que estejam macias. Enquanto as batatas-doces assam, prepare o recheio: misture o feijão preto cozido com pedaços de abacate e salsa picada. Tempere com azeite de oliva, sal e pimenta a gosto. Quando as batatas-doces estiverem prontas, corte-as ao meio e recheie com a mistura de feijão preto, abacate e salsa. Sirva quente.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 19,
+        "titulo": "Aveia com Frutas",
+        "ingredientes": [
+            "Aveia",
+            "Leite ou iogurte",
+            "Frutas frescas (morangos, bananas, mirtilos, ou outras de sua preferência)"
+        ],
+        "modo_preparo": "Misture aveia com leite ou iogurte e adicione frutas frescas, como morangos, bananas, mirtilos, ou outras de sua preferência. Ajuste as quantidades de aveia, leite (ou iogurte) e frutas de acordo com suas preferências pessoais. Sirva e aproveite sua aveia com frutas!",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 20,
+        "titulo": "Smoothie Verde",
+        "ingredientes": [
+            "Espinafre",
+            "Banana",
+            "Abacaxi",
+            "Iogurte ou leite de amêndoa"
+        ],
+        "modo_preparo": "Misture espinafre, banana, abacaxi e um pouco de iogurte ou leite de amêndoa em um liquidificador para preparar um smoothie saudável. Ajuste a quantidade de líquido (iogurte ou leite de amêndoa) conforme desejado para obter a consistência desejada. Bata até obter uma mistura homogênea e sirva imediatamente.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 21,
+        "titulo": "Omelete de Claras",
+        "ingredientes": [
+            "Claras de ovos",
+            "Pimentão",
+            "Espinafre",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "Bata as claras de ovos em uma tigela. Adicione legumes picados, como pimentão e espinafre. Tempere com sal e pimenta a gosto. Aqueça uma frigideira antiaderente e despeje a mistura de claras e legumes nela. Cozinhe até que as claras estejam firmes e os legumes estejam macios. Dobre ao meio e sirva.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 22,
+        "titulo": "Panquecas de Banana",
+        "ingredientes": [
+            "Bananas maduras",
+            "Aveia",
+            "Canela a gosto (opcional)"
+        ],
+        "modo_preparo": "Amasse bananas maduras em uma tigela e misture com aveia. Adicione canela a gosto, se desejar. Aqueça uma frigideira antiaderente e coloque conchas da mistura de banana e aveia na frigideira. Cozinhe até que as panquecas estejam douradas de ambos os lados. Sirva quente, pois as panquecas são naturalmente doces e saudáveis.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 23,
+        "titulo": "Iogurte com Granola",
+        "ingredientes": [
+            "Iogurte (pode ser iogurte natural ou do sabor de sua preferência)",
+            "Granola caseira ou comprada pronta",
+            "Frutas (framboesas, amoras ou outras de sua preferência)"
+        ],
+        "modo_preparo": "Em uma tigela, coloque o iogurte de sua escolha. Adicione granola caseira ou comprada pronta por cima do iogurte. Em seguida, adicione frutas frescas, como framboesas, amoras ou outras frutas de sua preferência. Misture tudo suavemente para combinar os sabores. Sirva imediatamente para desfrutar de um iogurte com granola delicioso e saudável.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 24,
+        "titulo": "Torradas de Abacate",
+        "ingredientes": [
+            "Abacate maduro",
+            "Torradas de pão integral",
+            "Sal e pimenta a gosto",
+            "Azeite de oliva (opcional)"
+        ],
+        "modo_preparo": "Amasse um abacate maduro em um recipiente. Em seguida, espalhe o abacate amassado sobre torradas de pão integral. Tempere com sal, pimenta e, se desejar, regue com um pouco de azeite de oliva. Sirva imediatamente para desfrutar de torradas de abacate deliciosas e saudáveis.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 25,
+        "titulo": "Smoothie de Proteína",
+        "ingredientes": [
+            "Proteína em pó",
+            "Leite ou água",
+            "Frutas (por exemplo, banana, morangos, ou outras de sua preferência)"
+        ],
+        "modo_preparo": "Em um liquidificador, adicione a quantidade desejada de proteína em pó. Em seguida, adicione leite ou água de acordo com suas preferências de consistência. Adicione frutas, como banana, morangos, ou outras frutas de sua escolha. Bata tudo até obter um smoothie homogêneo. Sirva imediatamente para desfrutar de um smoothie rico em proteínas.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 26,
+        "titulo": "Flocos de Aveia com Nozes e Mel",
+        "ingredientes": [
+            "Flocos de aveia",
+            "Nozes picadas",
+            "Mel"
+        ],
+        "modo_preparo": "Em uma tigela, misture flocos de aveia com nozes picadas. Regue a mistura com mel a gosto. Mexa bem para garantir que os ingredientes estejam bem combinados. Sirva como um delicioso e saudável café da manhã ou lanche.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 27,
+        "titulo": "Tapioca com Queijo e Tomate",
+        "ingredientes": [
+            "Tapioca (goma de mandioca)",
+            "Queijo (de sua preferência)",
+            "Tomate",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "Aqueça uma frigideira antiaderente e coloque a tapioca (goma de mandioca) para cozinhar até que fique firme e levemente dourada. Enquanto a tapioca está cozinhando, corte o queijo de sua preferência em pedaços pequenos e pique tomate em cubos. Quando a tapioca estiver pronta, recheie com os pedaços de queijo e os cubos de tomate. Tempere com sal e pimenta a gosto. Dobre a tapioca ao meio para cobrir o recheio. Sirva imediatamente para desfrutar de uma tapioca com queijo e tomate saborosa.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 28,
+        "titulo": "Muffins de Ovos",
+        "ingredientes": [
+            "Ovos",
+            "Vegetais (como pimentão, espinafre, cebola, etc.)",
+            "Queijo (de sua preferência)",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "Pré-aqueça o forno e prepare uma forma de muffins ou forminhas de silicone. Em uma tigela, bata os ovos e adicione vegetais picados (como pimentão, espinafre, cebola, etc.) e queijo de sua preferência em cubos. Tempere com sal e pimenta a gosto. Despeje a mistura nas forminhas de muffins e asse no forno pré-aquecido até que os muffins de ovo estejam firmes e levemente dourados. Deixe esfriar um pouco antes de desenformar e servir.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 29,
+        "titulo": "Mingau de Quinoa",
+        "ingredientes": [
+            "Quinoa",
+            "Leite (pode ser leite regular ou leite de amêndoa, leite de coco, etc.)",
+            "Canela em pó",
+            "Nozes (ou outro tipo de oleaginosa)",
+            "Mel ou adoçante a gosto (opcional)"
+        ],
+        "modo_preparo": "Em uma panela, cozinhe a quinoa com o leite de sua escolha, adicionando canela em pó a gosto. Deixe a quinoa cozinhar até que o líquido seja absorvido e a quinoa esteja macia e com uma textura semelhante a um mingau. Sirva o mingau de quinoa em tigelas e adicione nozes picadas por cima. Se desejar, adoce com mel ou outro adoçante a gosto. Desfrute deste mingau rico em proteínas e saboroso.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 30,
+        "titulo": "Pudim de Chia",
+        "ingredientes": [
+            "Sementes de chia",
+            "Leite de amêndoa (ou outro leite vegetal de sua escolha)",
+            "Frutas (como morangos, framboesas, ou outras de sua preferência)",
+            "Adoçante a gosto (opcional)"
+        ],
+        "modo_preparo": "Em uma tigela, misture sementes de chia com leite de amêndoa. Adoce a gosto, se desejar, com um adoçante de sua escolha. Cubra a mistura e leve à geladeira por algumas horas ou durante a noite para que as sementes de chia absorvam o líquido e formem uma consistência de pudim. Antes de servir, adicione frutas frescas, como morangos, framboesas ou outras de sua preferência, por cima do pudim de chia. Desfrute deste pudim saudável e delicioso.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 31,
+        "titulo": "Smoothie de Manga e Coco",
+        "ingredientes": [
+            "Manga congelada",
+            "Leite de coco",
+            "Iogurte",
+            "Mel ou adoçante a gosto (opcional)"
+        ],
+        "modo_preparo": "Em um liquidificador, adicione a manga congelada, leite de coco e iogurte. Se desejar, adoce com mel ou outro adoçante a gosto. Bata todos os ingredientes até obter um smoothie homogêneo e cremoso. Sirva imediatamente para desfrutar deste smoothie tropical refrescante e delicioso.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 32,
+        "titulo": "Tostas de Batata-Doce com Abacate e Ovos Pochê",
+        "ingredientes": [
+            "Batata-doce",
+            "Abacate",
+            "Ovos",
+            "Sal e pimenta a gosto"
+        ],
+        "modo_preparo": "Pré-aqueça o forno e corte a batata-doce em fatias finas. Asse as fatias de batata-doce até que estejam crocantes e douradas. Enquanto a batata-doce assa, prepare os ovos pochê. Corte o abacate em fatias. Quando as tostas de batata-doce estiverem prontas, coloque fatias de abacate por cima. Em seguida, coloque os ovos pochê sobre as fatias de abacate. Tempere com sal e pimenta a gosto. Sirva imediatamente para desfrutar destas deliciosas tostas de batata-doce com abacate e ovos pochê.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 33,
+        "titulo": "Waffles de Aveia",
+        "ingredientes": [
+            "Aveia",
+            "Banana",
+            "Clara de ovo"
+        ],
+        "modo_preparo": "Prepare a massa de waffles misturando aveia, banana e clara de ovo em um liquidificador. Despeje a massa em uma máquina de waffles pré-aquecida e cozinhe até ficarem dourados e crocantes. Sirva com suas coberturas favoritas."
+    },
+    {
+        "id": 34,
+        "titulo": "Salada de Frutas",
+        "ingredientes": [
+            "Maçãs",
+            "Peras",
+            "Uvas",
+            "Suco de limão"
+        ],
+        "modo_preparo": "Corte uma variedade de frutas frescas, como maçãs, peras e uvas. Adicione um toque de suco de limão para realçar o sabor das frutas."
+    },
+    {
+        "id": 35,
+        "titulo": "Sanduíche de Ovo e Abacate",
+        "ingredientes": [
+            "Ovo cozido",
+            "Abacate",
+            "Pão integral"
+        ],
+        "modo_preparo": "Faça um sanduíche com ovo cozido e abacate em pão integral. Adicione temperos ou condimentos de sua preferência, se desejar."
+    },
+    {
+        "id": 36,
+        "titulo": "Iogurte com Sementes de Linhaça e Mel",
+        "ingredientes": [
+            "Iogurte",
+            "Sementes de linhaça",
+            "Mel"
+        ],
+        "modo_preparo": "Misture iogurte com sementes de linhaça e um toque de mel. Esta é uma opção saudável para o café da manhã ou lanche."
+    },
+    {
+        "id": 37,
+        "titulo": "Tapioca com Cogumelos e Espinafre",
+        "ingredientes": [
+            "Tapioca (goma de mandioca)",
+            "Cogumelos",
+            "Espinafre"
+        ],
+        "modo_preparo": "Prepare tapioca recheada com cogumelos e espinafre refogados. Tempere a gosto e dobre a tapioca para cobrir o recheio."
+    },
+    {
+        "id": 38,
+        "titulo": "Crepes de Trigo Sarraceno",
+        "ingredientes": [
+            "Trigo sarraceno",
+            "Iogurte",
+            "Frutas frescas"
+        ],
+        "modo_preparo": "Faça crepes de trigo sarraceno e recheie com iogurte e frutas frescas. Sirva como uma opção saudável e saborosa."
+    },
+    {
+        "id": 39,
+        "titulo": "Sanduíche de Frango",
+        "ingredientes": [
+            "Peito de frango grelhado",
+            "Alface",
+            "Tomate",
+            "Maionese light",
+            "Pão integral"
+        ],
+        "modo_preparo": "Faça um sanduíche de peito de frango grelhado com alface, tomate e maionese light em pão integral. Sirva como uma opção saudável e saborosa.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 40,
+        "titulo": "Tábua de Queijos",
+        "ingredientes": [
+            "Variedades de queijos",
+            "Nozes",
+            "Uvas",
+            "Pães integrais"
+        ],
+        "modo_preparo": "Monte uma tábua de queijos com variedades de queijos, nozes, uvas e pães integrais. É uma opção perfeita para compartilhar com amigos e familiares.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 41,
+        "titulo": "Bolo de Cenoura",
+        "ingredientes": [
+            "Cenouras",
+            "Farinha de trigo",
+            "Ovos",
+            "Cream cheese",
+            "Mel"
+        ],
+        "modo_preparo": "Prepare um bolo de cenoura com cobertura de cream cheese e um toque de mel. Uma opção deliciosa para acompanhar o café.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 42,
+        "titulo": "Mini Quiches",
+        "ingredientes": [
+            "Ovos",
+            "Espinafre",
+            "Cogumelos",
+            "Queijo",
+            "Massa para quiche"
+        ],
+        "modo_preparo": "Faça mini quiches com ovos, espinafre, cogumelos, queijo e massa para quiche. Sirva como aperitivo ou lanche.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 43,
+        "titulo": "Salada de Frutas",
+        "ingredientes": [
+            "Frutas frescas",
+            "Mel",
+            "Hortelã"
+        ],
+        "modo_preparo": "Prepare uma salada de frutas frescas e sirva com um toque de mel e hortelã. Uma opção refrescante e saudável.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 44,
+        "titulo": "Pipoca Temperada",
+        "ingredientes": [
+            "Milho de pipoca",
+            "Especiarias (páprica, alecrim, etc.)"
+        ],
+        "modo_preparo": "Faça pipoca em casa e tempere com suas especiarias favoritas, como páprica e alecrim. Uma opção de lanche deliciosa e personalizável.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 45,
+        "titulo": "Tostas de Abacate",
+        "ingredientes": [
+            "Abacate",
+            "Tostas de pão integral",
+            "Pimenta",
+            "Limão"
+        ],
+        "modo_preparo": "Amasse abacate em tostas de pão integral e finalize com pimenta e limão. Uma opção simples e saudável.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 46,
+        "titulo": "Smoothie de Morango e Banana",
+        "ingredientes": [
+            "Morangos",
+            "Banana",
+            "Iogurte",
+            "Mel"
+        ],
+        "modo_preparo": "Misture morangos, banana, iogurte e mel para um smoothie refrescante. Uma opção deliciosa para o café da manhã ou lanche.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 47,
+        "titulo": "Muffins de Mirtilo",
+        "ingredientes": [
+            "Farinha de aveia",
+            "Iogurte",
+            "Mirtilos"
+        ],
+        "modo_preparo": "Prepare muffins de mirtilo com farinha de aveia e iogurte. Uma opção saudável e saborosa para o café da manhã ou lanche.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 48,
+        "titulo": "Sopa de Tomate",
+        "ingredientes": [
+            "Tomate",
+            "Torradas integrais"
+        ],
+        "modo_preparo": "Misturar tudo e servir",
+        "dificuldade": "Dificil"
+    },
+    {
+        "id": 49,
+        "titulo": "Frango Grelhado com Legumes",
+        "ingredientes": [
+            "Peitos de frango",
+            "Abobrinha",
+            "Pimentão",
+            "Cebola",
+            "Azeite de oliva",
+            "Sal",
+            "Pimenta"
+        ],
+        "modo_preparo": "1. Tempere os peitos de frango com sal, pimenta e azeite de oliva.\n2. Corte os legumes (abobrinha, pimentão e cebola) em pedaços.\n3. Pré-aqueça a grelha em fogo médio-alto.\n4. Grelhe o frango por cerca de 6-8 minutos de cada lado ou até que esteja completamente cozido.\n5. Enquanto o frango grelha, grelhe os legumes até que fiquem macios e levemente dourados, regando-os com azeite de oliva e temperando com sal e pimenta.\n6. Sirva o frango grelhado com os legumes grelhados por cima.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 50,
+        "titulo": "Salmão Assado",
+        "ingredientes": [
+            "Filés de salmão",
+            "Suco de limão",
+            "Alho picado",
+            "Azeite de oliva",
+            "Sal",
+            "Pimenta"
+        ],
+        "modo_preparo": "1. Misture o suco de limão, alho picado, azeite de oliva, sal e pimenta para fazer o molho.\n2. Regue os filés de salmão com o molho.\n3. Asse no forno a 180°C por cerca de 15-20 minutos ou até que o salmão esteja cozido.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 51,
+        "titulo": "Risoto de Cogumelos",
+        "ingredientes": [
+            "Arroz para risoto",
+            "Cogumelos",
+            "Caldo de legumes",
+            "Cebola",
+            "Manteiga",
+            "Queijo parmesão",
+            "Vinho branco"
+        ],
+        "modo_preparo": "1. Refogue a cebola em manteiga até ficar translúcida.\n2. Adicione o arroz e refogue por alguns minutos.\n3. Deglace com vinho branco e, em seguida, adicione o caldo de legumes aos poucos, mexendo constantemente até que o risoto esteja cremoso.\n4. Adicione os cogumelos cozidos e o queijo parmesão.\n5. Sirva quente.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 52,
+        "titulo": "Espaguete de Abobrinha",
+        "ingredientes": [
+            "Abobrinha",
+            "Molho de tomate",
+            "Azeite de oliva",
+            "Sal",
+            "Pimenta",
+            "Manjericão fresco"
+        ],
+        "modo_preparo": "1. Use um spiralizer para fazer espaguete de abobrinha.\n2. Aqueça o azeite de oliva em uma panela e refogue a abobrinha até que fique macia.\n3. Adicione o molho de tomate e tempere com sal, pimenta e manjericão.\n4. Cozinhe por alguns minutos e sirva.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 53,
+        "titulo": "Salada de Quinoa",
+        "ingredientes": [
+            "Quinoa",
+            "Pepinos",
+            "Tomate",
+            "Hortelã",
+            "Suco de limão",
+            "Azeite de oliva",
+            "Sal",
+            "Pimenta"
+        ],
+        "modo_preparo": "1. Cozinhe a quinoa de acordo com as instruções da embalagem e deixe esfriar.\n2. Misture a quinoa cozida com pepinos, tomate e hortelã.\n3. Regue com suco de limão, azeite de oliva, sal e pimenta a gosto.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 54,
+        "titulo": "Wrap de Frango",
+        "ingredientes": [
+            "Peitos de frango grelhados",
+            "Folhas de alface",
+            "Tomate",
+            "Molho de iogurte",
+            "Tortilhas ou wraps"
+        ],
+        "modo_preparo": "1. Corte os peitos de frango grelhados em tiras.\n2. Coloque as tiras de frango, folhas de alface e tomate nas tortilhas.\n3. Regue com molho de iogurte.\n4. Dobre as tortilhas, formando wraps, e sirva.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 55,
+        "titulo": "Sopa de Lentilha",
+        "ingredientes": [
+            "Lentilhas",
+            "Legumes",
+            "Tomate",
+            "Temperos"
+        ],
+        "modo_preparo": "1. Cozinhe as lentilhas com legumes, tomate e temperos até que fiquem macios.\n2. Misture a sopa e sirva quente.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 56,
+        "titulo": "Peixe com Crosta de Ervas",
+        "ingredientes": [
+            "Filés de peixe",
+            "Ervas frescas (por exemplo, salsa, coentro)",
+            "Pão ralado",
+            "Azeite de oliva",
+            "Sal",
+            "Pimenta"
+        ],
+        "modo_preparo": "1. Misture as ervas frescas, pão ralado, azeite de oliva, sal e pimenta para fazer a crosta.\n2. Coloque a crosta de ervas sobre os filés de peixe.\n3. Asse no forno a 180°C por cerca de 15-20 minutos ou até que o peixe esteja cozido.",
+        "dificuldade": "Média"
+    },
+    {
+        "id": 57,
+        "titulo": "Tofu Mexido",
+        "ingredientes": [
+            "Tofu",
+            "Vegetais a gosto",
+            "Temperos a gosto"
+        ],
+        "modo_preparo": "1. Cozinhe o tofu com vegetais e temperos a gosto até que fique dourado e bem misturado.\n2. Sirva quente.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 58,
+        "titulo": "Espetinhos de Legumes",
+        "ingredientes": [
+            "Abobrinha",
+            "Cogumelos",
+            "Pimentão",
+            "Cebola",
+            "Azeite de oliva",
+            "Ervas a gosto"
+        ],
+        "modo_preparo": "1. Monte os espetinhos intercalando os legumes e regando com azeite de oliva e temperando com ervas a gosto.\n2. Grelhe os espetinhos até que fiquem dourados e os legumes estejam macios.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 59,
+        "titulo": "Muffins de Blueberry",
+        "ingredientes": [
+            "Farinha de trigo",
+            "Açúcar",
+            "Blueberries",
+            "Leite",
+            "Ovos",
+            "Manteiga derretida",
+            "Fermento em pó",
+            "Sal"
+        ],
+        "modo_preparo": "1. Pré-aqueça o forno a 180°C e prepare uma forma de muffins com forminhas de papel.\n2. Em uma tigela, misture a farinha, o açúcar, o fermento em pó e o sal.\n3. Em outra tigela, bata os ovos, adicione o leite e a manteiga derretida.\n4. Despeje a mistura líquida na mistura de ingredientes secos e mexa até incorporar.\n5. Dobre delicadamente as blueberries na massa.\n6. Encha as forminhas de muffins até 2/3 da capacidade.\n7. Asse no forno por cerca de 20-25 minutos ou até que os muffins fiquem dourados e um palito inserido saia limpo.",
+        "dificuldade": "Fácil"
+    },
+    {
+        "id": 60,
+        "titulo": "Salada de Frutas",
+        "ingredientes": [
+            "Morangos",
+            "Maçãs",
+            "Bananas",
+            "Uvas",
+            "Kiwi",
+            "Mel",
+            "Suco de laranja",
+            "Hortelã fresca"
+        ],
+        "modo_preparo": "1. Lave e corte as frutas em pedaços, como morangos, maçãs, bananas, uvas e kiwi.\n2. Misture as frutas em uma tigela grande.\n3. Regue com mel e suco de laranja a gosto e misture delicadamente.\n4. Decore com folhas de hortelã fresca.\n5. Leve à geladeira por um tempo para servir bem gelada.",
+        "dificuldade": "Fácil"
+    }
+    
+]
