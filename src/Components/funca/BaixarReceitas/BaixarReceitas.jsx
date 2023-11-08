@@ -10,21 +10,21 @@ function App() {
   const [altura, setAltura] = useState('');
   const [objetivo, setObjetivo] = useState('');
   const [nivelAtividade, setNivelAtividade] = useState('');
-  const [caloriasEmagrecer, setCaloriasEmagrecer] = useState('');
-  const [taxaMetabolicaBasal, setTaxaMetabolicaBasal] = useState('');
-  const [tdee, setTDEE] = useState('');
-  const [imc, setIMC] = useState('');
+  const [caloriasEmagrecer, setCaloriasEmagrecer] = useState(0);
+  const [taxaMetabolicaBasal, setTaxaMetabolicaBasal] = useState(0);
+  const [tdee, setTDEE] = useState(0);
+  const [imc, setIMC] = useState(0);
 
   const calcularNutricao = () => {
-    // Realize seus cálculos nutricionais aqui com base nos valores inseridos.
-    // Atualize os estados (setCaloriasEmagrecer, setTaxaMetabolicaBasal, setTDEE, setIMC)
-    // com os resultados dos cálculos.
+    // IMC = peso (kg) / (altura (m))^2
+    const alturaEmMetros = altura / 100; // Convertendo altura de centímetros para metros
+    const imcCalculado = peso / (alturaEmMetros * alturaEmMetros);
 
-    // Exemplo simples: apenas definir valores de teste
+    // Agora, atualize os estados com os valores calculados
+    setIMC(imcCalculado);
     setCaloriasEmagrecer(2000);
     setTaxaMetabolicaBasal(1500);
     setTDEE(2500);
-    setIMC(24);
   };
 
   return (
@@ -39,6 +39,7 @@ function App() {
               <div>
                 <h1>Gênero</h1>
                 <input className='input' type="text" value={genero} onChange={(e) => setGenero(e.target.value)} />
+                
               </div>
               <div>
                 <h1>Idade</h1>

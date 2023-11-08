@@ -54,7 +54,8 @@
     border: 1px white solid;
     border-radius: 15px;
     height: 35px;
-    width: 300px;
+    width: 90%;
+    font-size: 25px;
 }
 
 .butao{

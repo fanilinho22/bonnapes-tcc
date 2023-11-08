@@ -2,12 +2,21 @@
     justify-items: center;
 }
 
+.fundinho{
+background-color: #0B9B8A;
+}
+
+.titulo{
+    color: #FFF6D6;
+    font-size: 50px;
+}
+
 .receita{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: aqua;
+    background-color: #FFF6D6;
     margin-top: 5%;
     width: 70%;
     padding-left: 5%;
@@ -20,4 +29,50 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.input-pesqusia{
+    height: 10%;
+    width: 60%;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    border: 1px solid white;
+    
+}
+
+.bigbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.bigbox p{
+    width: 60%;
+}
+
+.preparo{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.preparo p{
+    padding-top: -10px;
+}
+
+.ingredientes{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ingredientes ul{
+    list-style: none;
+    padding: 5px;
 }

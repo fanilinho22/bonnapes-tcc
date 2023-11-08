@@ -1,140 +1,149 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background-color: #DF7157;
-    width: 100%;
-    height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #DF7157;
+  width: 100%;
+  height: 80px;
 }
 
 .header_icon {
-    object-fit: contain;
-    height: 60px;
-    margin-left: 20px;
-    border-radius: 50%;
+  object-fit: contain;
+  height: 60px;
+  margin-left: 20px;
+  border-radius: 50%;
 }
 
 .header_center {
-    display: flex;
-    align-items: center;
-    flex: 1;
-    max-width: fit-content;
-    padding: 10px;
-    height: 30px;
-    border-radius: 999px;
-    border: 1px solid #FFC9BD;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: fit-content;
+  padding: 10px;
+  height: 30px;
+  border-radius: 999px;
+  border: 1px solid #FFC9BD;
 }
 
 .header_center>input {
-    border: none;
-    width: 250px;
-    outline-width: 0;
-    background-color: #FFC9BD;
-    border-radius: 999px;
-    color: white;
+  border: none;
+  width: 250px;
+  outline-width: 0;
+  background-color: #FFC9BD;
+  border-radius: 999px;
+  color: white;
 }
 
 .header_right {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    width: 15vw;
-    margin-right: 80px;
-    border-radius: 999px;
-    border: 1px solid white;
+  width: 15vw;
+  margin-right: 80px;
+  border-radius: 999px;
+  border: 1px solid white;
 
 }
 
 .header_bar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    border: none;
-    margin-left: 3%;
-    height: 60px;
-    width: 500px;
-    outline-width: 0;
-    background-color: #FFC9BD;
-    border-radius: 999px;
-    color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: none;
+  margin-left: 3%;
+  height: 60px;
+  width: 500px;
+  outline-width: 0;
+  background-color: #FFC9BD;
+  border-radius: 999px;
+  color: black;
 }
 
-.header_bar hr{
-    width: 5px;
+.header_bar hr {
+  width: 5px;
 }
 
 .header_bar li a {
-    text-decoration: none; /* Remove a linha abaixo do link */
-    color: #000; /* Define a cor do texto, se necessário */
+  text-decoration: none;
+  /* Remove a linha abaixo do link */
+  color: #000;
+  /* Define a cor do texto, se necessário */
 
-  }
+}
 
 #p {
-    color: white;
-    font-weight: bold;
+  color: white;
+  font-weight: bold;
 }
 
-.bar-back{
-    margin-right: 5%;
-    background-color: #DF7157;
-    border-radius: 999px;
-    border: 1px solid white;
+.bar-back {
+  margin-right: 5%;
+  background-color: #DF7157;
+  border-radius: 999px;
+  border: 1px solid white;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 3%;
-    height: 60px;
-    width: 150px;
-    background-color: #FFC9BD;
-    border-radius: 999px;
-    color: black;
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3%;
+  height: 60px;
+  width: 150px;
+  background-color: #FAB607;
+  border-radius: 999px;
+  color: black;
 }
 
-.log{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    width: 100px;
-    background-color: #FFC9BD;
-    border-radius: 999px;
-    color: black;
-    margin-right: 3%;
+.log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100px;
+  background-color: #FFC9BD;
+  border-radius: 999px;
+  color: black;
+  margin-right: 3%;
 }
 
-  .nav {
-    list-style-type: none; /* Remove os pontos à frente das palavras */
-    padding: 0; /* Remova o espaçamento padrão nas margens */
-    margin-left: 10px;
-    
-  }
-  
-  .nav li {
-    display: inline; /* Exibe os itens da lista em linha */
-    margin-right: 10px;  
-    font-size: 20px;
+.nav {
+  list-style-type: none;
+  /* Remove os pontos à frente das palavras */
+  padding: 0;
+  /* Remova o espaçamento padrão nas margens */
+  margin-left: 10px;
 
-  }
-  
-  .nav li a {
-    text-decoration: none; /* Remova a linha abaixo do texto */
-    color: #000; /* Cor normal do texto */
-    transition: color 0.3s; /* Transição de cor ao passar o mouse */
-  
-    /* Efeito no hover */
-    &:hover {
-      color: #0B9B8A; /* Cor do texto quando o mouse passa por cima */
-    }
-  }
+}
 
-  .nav :link{
-    font-weight: bold;
-    font-size: 25px;
+.nav li {
+  display: inline;
+  /* Exibe os itens da lista em linha */
+  margin-right: 10px;
+  font-size: 20px;
+
+}
+
+.nav li a {
+  text-decoration: none;
+  /* Remova a linha abaixo do texto */
+  color: #000;
+  /* Cor normal do texto */
+  transition: color 0.3s;
+  /* Transição de cor ao passar o mouse */
+
+  /* Efeito no hover */
+  &:hover {
+    color: #0B9B8A;
+    /* Cor do texto quando o mouse passa por cima */
   }
+}
+
+.nav :link {
+  font-weight: bold;
+  font-size: 25px;
+}
