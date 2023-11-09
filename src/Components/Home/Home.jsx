@@ -7,7 +7,10 @@ import taco from './img/taco.gif'
 import dinheiro from './img/dinheiro.gif'
 import casa from './img/casa.gif';
 import terra from './img/terra.gif'
-
+import felipe from './img/felipe.png'
+import saori from './img/saori.png'
+import daniel from './img/daniel.png'
+import kauã from './img/kauã.png'
 function Home() {
 
     return (
@@ -16,7 +19,7 @@ function Home() {
             <Header />
             <div className='inicio'>
                 <div className='apresenta'>
-                    <br></br>
+                    
                     <p id='nós'>Nós da Bonnape trazemos a nossa ideia de criar um site para ajudar todas as pessoas que tem a mesma rotina alimentar por falta de tempo e recurso, utilizaremos aquilo que a pessoa possui em casa para dar várias ideias de receita e podendo até auxiliar ela caso tenha algum tipo de objetivo relacionada ao seu corpo, seja ganhar massa ou perder peso.</p>
                 </div>
 
@@ -29,7 +32,8 @@ function Home() {
                 <div className='cad'>
                     <div className='pequenos-cards'>
                         <img src={casa} alt="casa"  id='gif'/>
-                        <h1>Empresa</h1>
+                        <h1 id='empresa'>Empresa</h1>
+                         
                         <p id='textinho'>Não teremos algo físico, trabalharemos só pelo site e sempre aperfeiçoando o banco de dados.</p>
                     </div>
                     <div className='pequenos-cards'>
@@ -64,27 +68,27 @@ Calculadora nutricional.</p>
             <div className='equipe-conteudo'>
                 <div className='pessoas'>
                     <div className='cima'>
-                        <div className='pessoas-card'>
-                            <h3>felipe</h3>
-                            <img src={casa} alt="casa" />
+                        <div>
+                            <h3 id='nomes'>felipe</h3>
+                            <img src={felipe} alt="felipe" className='pessoas-card'/>
                             <p>Desing & front-dev</p>
 
                         </div>
-                        <div className='pessoas-card'>
-                            <h3>daniel</h3>
-                            <img src={casa} alt="casa" />
+                        <div>
+                            <h3 id='nomes'>daniel</h3>
+                            <img src={daniel} alt="daniel" className='pessoas-card'/>
                             <p>Front-dev & back-dev</p>
                         </div>
                     </div>
                     <div className='baixo'>
-                        <div className='pessoas-card'>
-                            <h3>saori</h3>
-                            <img src={casa} alt="casa" />
+                        <div >
+                            <h3 id='nomes'>saori</h3>
+                            <img src={saori} alt="saori" className='pessoas-card'/>
                             <p>Desing & front-dev</p>
                         </div>
-                        <div className='pessoas-card'>
-                            <h3>Deus</h3>
-                            <img src={casa} alt="casa" />
+                        <div >
+                            <h3 id='nomes'>kauã</h3>
+                            <img src={kauã} alt="kauã" className='pessoas-card'/>
                             <p>Ajuda mt </p>
                         </div>
                     </div>
@@ -93,8 +97,7 @@ Calculadora nutricional.</p>
                 <div className='texto-projeto'>
                     <h1>Texto</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tellus nulla, mollis consectetur lobortis et, consequat ut eros. Vestibulum ac mi nec velit bibendum consequat. Nam nec eleifend mauris, eu sagittis nisi.
-                    </p>
+                    Nosso projeto foi pensado em um site onde você insere um ingrediente que há em sua casa e o mesmo gerará resultado com todas as receitas possíveis com aquele alimento, trazendo criatividade e acabando com as receitas que podem se tornar enjoativas na sua rotina!                    </p>
                 </div>
             </div>
 

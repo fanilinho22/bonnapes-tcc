@@ -21,7 +21,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    height: 900px;
+    height: 700px;
 }
 
 .inicio p {
@@ -81,17 +81,17 @@
     flex-direction: column;
     border: #025349 1px solid;
     border-radius: 15%;
-    margin-left: 50px;
+    margin-left: 26px;
     margin-bottom: 50px;
-    height: 250px;
-    width: 200px;
+    height: 300px;
+    width: 250px;
 }
 
 .texto-projeto{
     background-color: #EB8E88;
     height: auto;
     width: 500px;
-    margin-left: 25%;
+    margin-left: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
     border-radius: 15%;
@@ -99,6 +99,8 @@
 
 .texto-projeto p{
     font-size: 35px;
+    margin-right: 14px;
+    margin-left: 14px;
 }
 
 .equipe-conteudo{
@@ -107,10 +109,19 @@
     
 }
 
-#nós {font-size: 40px;}
+#nós {font-size: 34px;}
 
 #gif {width: 180px;}
 
 #textinho {font-size: 20px;
 padding-left: 10%;
 padding-right: 10%;}
+
+#empresa {
+    padding-bottom: 30px;
+}
+
+#nomes {
+    color: black;
+    font-size: 25px;
+}
