@@ -1,0 +1,46 @@
+.sugest{
+    justify-content: center;
+    background-color: #0B9B8A;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 700px;
+}
+
+.sugestoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo-sugest{
+    background-color: #FC9981;
+    width: 40%;
+    height: 100%;
+    border-radius: 15px;
+    font-size: 50px;
+}
+
+.bloco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    width: 70%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+.receitas-dia{
+    background-color: bisque;
+    width: 60%;
+    height: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 15px;
+}

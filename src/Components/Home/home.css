@@ -20,6 +20,7 @@
 .inicio {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
     height: 700px;
 }
@@ -31,9 +32,12 @@
 .abaixo {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #0B9B8A;
-    height: 500px;
+    height: 100%;
+    width: 90%;
     border-radius: 50px;
+    margin-left: 5%;
 }
 
 .cad {
@@ -42,6 +46,7 @@
     justify-content: space-between;
     margin-inline: 5%;
     flex-direction: row;
+
 }
 
 .pequenos-cards {

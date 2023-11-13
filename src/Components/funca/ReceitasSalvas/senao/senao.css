@@ -1,0 +1,26 @@
+/* Adicione estas regras ao seu arquivo CSS para estilizar o componente 'senao' */
+.senao {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .senao h1 {
+    color: #333; /* Cor do texto */
+    font-size: 28px; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Espaçamento inferior */
+  }
+  
+  .senao a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #DF7157; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    text-decoration: none;
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s ease; /* Transição suave de cor de fundo */
+  }
+  
+  .senao a:hover {
+    background-color: #FC9981; /* Cor de fundo do botão ao passar o mouse */
+  }
+  

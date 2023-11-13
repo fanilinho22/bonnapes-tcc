@@ -29,6 +29,12 @@ background-color: #0B9B8A;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
+}
+
+.box-receitas hr{
+    width: 90%;
+    border: 1px solid black;
 }
 
 .input-pesqusia{
@@ -75,4 +81,17 @@ background-color: #0B9B8A;
 .ingredientes ul{
     list-style: none;
     padding: 5px;
+}
+
+.butao-salvar{
+    background-color: #FC9981;
+    border-radius: 15px;
+
+}
+
+.box-pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
