@@ -2,119 +2,170 @@
     justify-content: center;
 }
 
-.caixa {
+.page-calc {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.imc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: #0B9B8A;
-    width: 60%;
-    height: 50%;
+    width: 80%;
+    margin-bottom: 2%;
+    margin-top: 2%;
     border-radius: 15px;
-    padding: 20px;
-    margin-bottom: 25px;
+    padding: 2%;
 }
 
-.entrada {
+.tmb {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #0B9B8A;
+    width: 80%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 15px;
+    padding: 2%;
 }
 
-.entradinhas {
+.h2o {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-}
-
-.entradinhas > div{
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 40px;
-    margin-top: 15px;
+    background-color: #0B9B8A;
+    width: 80%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 15px;
+    padding: 2%;
 }
 
-.entradinhas h1 {
-    color: #FFD7CD;
-}
-
-.cadg {
+.containerText {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
 }
 
-.input {
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    border: 1px white solid;
-    border-radius: 15px;
-    height: 35px;
-    width: 90%;
-    font-size: 25px;
+.containerText h1 {
+    color: black;
+    font-size: 40px;
 }
 
-.butao{
-    color: white;
-    background-color: #DF5F57;
-    border: 1px #DF5F57 solid;
-    margin-top: 20px;
-    border-radius: 15px;
-    height: 35px;
-    width: 350px;
+.containerText p {
     font-size: 20px;
 }
 
-.resposta{
+.containerCalc {
+    background-color: #EB8E88;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #DF5F57;
+    width: 40%;
+    padding-bottom: 2%;
     border-radius: 15px;
-    padding: 20px;
-    margin-bottom: 25px;
-    margin-left: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    /* Adiciona uma transição suave de 0.3 segundos */
+}
+
+.containerCalc:hover {
+    transform: scale(1.05);
+    /* Aumenta ligeiramente o tamanho quando hover */
+}
+
+.containerCalc input {
+    background-color: white;
     width: 30%;
-}
-.resposta h1, h3 {
-    color: #FFD7CD;
-}
-
-.resposta p{
-    color: #FFD7CD;
-    background-color: #0B9B8A;
     border-radius: 15px;
-    width: 50%;
+    padding-left: 2%;
+    border: none;
+    font-size: 15px;
+    padding: 2%;
+    transition: background-color 0.3s ease;
+    /* Adiciona uma transição de cor suave */
 }
 
-.respostinha{
+.containerCalc input:hover {
+    background-color: whitesmoke;
+    /* Altera a cor de fundo quando hover */
+}
+
+.containerCalc button {
+    margin-top: 2%;
+    background-color: #0B9B8A;
+    color: aliceblue;
+    border: none;
+    border-radius: 15px;
+    width: 30%;
+    font-size: 15px;
+    padding: 2%;
+    transition: background-color 0.3s ease;
+    /* Adiciona uma transição de cor suave */
+}
+
+.containerCalc button:hover {
+    background-color: #087a6a;
+    /* Altera a cor de fundo quando hover */
+}
+
+.containerCalc select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 35%;
+    border-radius: 15px;
+    padding-left: 2%;
+    border: none;
+    font-size: 15px;
+    padding: 2%;
+    appearance: none;
+}
+
+.containerCalc select option {
+    background-color: #0B9B8A;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+}
+
+.containerCalc select option:checked {
+    background-color: #FFA07A;
+    /* Cor de fundo quando a opção está selecionada */
+    color: black;
+    /* Cor do texto quando a opção está selecionada */
+}
+
+.resultCalcs{
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.result-complex{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    width: 100%;
 
 }
 
-.respostinha2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-
-}
-
-.divinha{
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 5px;
-    width: 150px;
-    height: auto;
-
+.titulo-calc{
+    font-size: 50px;
 }

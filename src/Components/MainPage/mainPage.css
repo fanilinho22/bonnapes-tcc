@@ -34,3 +34,18 @@
       color: #DF7157; /* Cor do texto quando o mouse passa por cima */
     }
 }
+
+.selection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagem{
+    height: 25%;
+    width: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 50%;
+}
