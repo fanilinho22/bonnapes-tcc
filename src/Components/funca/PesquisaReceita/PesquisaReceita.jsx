@@ -1,10 +1,18 @@
 import './pesquisaReceitas.css';
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
 import Receitas from '../../../DB/receitas.json';
 
 function App() {
+
+  const navigate = useNavigate();
+  const handleVoltar = () => {
+    // Redirecionar para a página "/home"
+    navigate('/home');
+  };
+
   const [searchTerm, setSearchTerm] = useState('');
   const [receitasSalvas, setReceitasSalvas] = useState(() => {
     const savedRecipes = localStorage.getItem('receitasSalvas');
@@ -41,26 +49,29 @@ function App() {
     setLastUpdate(Date.now());
   }, [receitasSalvas]);
 
-  
+
 
   return (
-    <div className="App">
+    <div className="pesquisarec">
+      <Header />
       <div className='fundinho'>
+        <div className='somenteparaamerdadobotao'>
+        <button onClick={handleVoltar}></button>
+        </div>
 
-        <Header />
         <div className='box-pesquisa'>
-        <h1 className='titulo'>Pesquisar receitas</h1>
-        <input className='input-pesqusia'
-          type="text"
-          placeholder="Pesquisar por ingredientes"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
+          <h1 className='titulo'>Pesquisar receitas</h1>
+          <input className='input-pesqusia'
+            type="text"
+            placeholder="Pesquisar por ingredientes"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
         </div>
 
 
         <div className='box-receitas'>
-          {filteredReceitas.map((receita) => ( 
+          {filteredReceitas.map((receita) => (
             <div key={receita.id} className='receita'>
               <hr />
               <h1>{receita.titulo}</h1>

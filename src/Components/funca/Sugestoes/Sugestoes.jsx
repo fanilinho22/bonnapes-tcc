@@ -1,28 +1,38 @@
 import './sugestoes.css';
+import { useNavigate } from 'react-router-dom';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
 
 function App() {
+
+  const navigate = useNavigate();
+  const handleVoltar = () => {
+    // Redirecionar para a página "/home"
+    navigate('/home');
+  };
+
   return (
     <div className="sugest">
       <Header />
+      <button onClick={handleVoltar}></button>
       <div className='sugestoes'>
+
         <h1 className='titulo-sugest'>Receitas do dia!</h1>
 
         <div className='bloco'>
           <div className='receitas-dia'>
             <h1>Café da Manhã</h1>
             <h2>Smoothie de Frutas Tropicais - Fácil</h2>
-            <p className='titulo-pequeno'>Ingredientes:</p>
+            <p className='titulo-pequeno'><strong>Ingredientes:</strong></p>
             <p>
-              1 banana madura
-              1 xícara de abacaxi picado
-              1/2 xícara de manga picada
-              1/2 xícara de iogurte natural
-              1/2 xícara de suco de laranja
-              Gelo a gosto</p>
+              1 banana madura;
+              1 xícara de abacaxi picado;
+              1/2 xícara de manga picada;
+              1/2 xícara de iogurte natural;
+              1/2 xícara de suco de laranja;
+              Gelo a gosto;</p>
 
-            <p className='titulo-pequeno'>Modo de Preparo:</p>
+            <p className='titulo-pequeno'><strong>Modo de Preparo:</strong></p>
 
             <p>
               Coloque todos os ingredientes no liquidificador.
@@ -34,18 +44,18 @@ function App() {
           <div className='receitas-dia'>
             <h1>Almoço</h1>
             <h2>Frango Grelhado com Salada de Quinoa - Moderada</h2>
-            <p className='titulo-pequeno'>Ingredientes:</p>
+            <p className='titulo-pequeno'><strong>Ingredientes:</strong></p>
             <p>
-              Peitos de frango
-              1 xícara de quinoa cozida
-              Tomates cereja cortados ao meio
-              Pepino em cubos
-              Folhas de espinafre
-              Azeite de oliva
-              Suco de limão
-              Sal e pimenta a gosto</p>
+              Peitos de frango;
+              1 xícara de quinoa cozida;
+              Tomates cereja cortados ao meio;
+              Pepino em cubos;
+              Folhas de espinafre;
+              Azeite de oliva;
+              Suco de limão;
+              Sal e pimenta a gosto;</p>
 
-            <p className='titulo-pequeno'>Modo de Preparo:</p>
+            <p className='titulo-pequeno'><strong>Modo de Preparo:</strong></p>
 
             <p>
               Tempere os peitos de frango com sal e pimenta, grelhe até que estejam cozidos por completo.
@@ -57,18 +67,18 @@ function App() {
           <div className='receitas-dia'>
             <h1>Jantar</h1>
             <h2>Espaguete com Molho de Tomate Caseiro - Fácil</h2>
-            <p className='titulo-pequeno'>Ingredientes:</p>
+            <p className='titulo-pequeno'><strong>Ingredientes:</strong></p>
             <p>
-              300g de espaguete
-              2 latas de tomate pelado
-              2 dentes de alho picados
-              1 cebola picada
-              Azeite de oliva
-              Manjericão fresco
-              Sal e pimenta a gosto
-              Queijo parmesão ralado (opcional)</p>
+              300g de espaguete;
+              2 latas de tomate pelado;
+              2 dentes de alho picados;
+              1 cebola picada;
+              Azeite de oliva;
+              Manjericão fresco;
+              Sal e pimenta a gosto;
+              Queijo parmesão ralado (opcional);</p>
 
-            <p className='titulo-pequeno'>Modo de Preparo:</p>
+            <p className='titulo-pequeno'><strong>Modo de Preparo:</strong></p>
 
             <p>
               Cozinhe o espaguete de acordo com as instruções da embalagem.

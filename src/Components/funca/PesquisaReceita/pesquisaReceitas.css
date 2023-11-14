@@ -1,43 +1,102 @@
-.App{
+.pesquisarec {
     justify-items: center;
 }
 
-.fundinho{
-background-color: #0B9B8A;
+.somenteparaamerdadobotao {
+    justify-content: center;
 }
 
-.titulo{
+.somenteparaamerdadobotao button {
+    background-color: #DF5F57;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 2%;
+    margin-top: 2%;
+    transition: background-color 0.3s ease;
+}
+
+.somenteparaamerdadobotao button::after {
+    content: '\2190';
+    /* Código unicode para uma seta à esquerda */
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.somenteparaamerdadobotao button:hover {
+    background-color: #C94A47;
+}
+
+.fundinho {
+    background-color: #0B9B8A;
+}
+
+.titulo {
     color: #FFF6D6;
     font-size: 50px;
 }
 
-.receita{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #FFF6D6;
-    margin-top: 5%;
-    width: 70%;
+.box-receitas {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.receita {
+    margin-bottom: 3%;
+    margin-top: 3%;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 1px solid #ccc;
     border-radius: 15px;
+    background-color: #F0F0F0;
 }
 
-.box-receitas{
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 10px 0;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+.bigbox {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
 }
 
-.box-receitas hr{
-    width: 90%;
-    border: 1px solid black;
+.ingredientes,
+.preparo {
+    flex: 1;
+    padding: 10px;
 }
 
-.input-pesqusia{
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+.input-pesqusia {
     height: 10%;
     width: 60%;
     font-size: 25px;
@@ -46,50 +105,30 @@ background-color: #0B9B8A;
     padding-bottom: 5px;
     border-radius: 15px;
     border: 1px solid white;
-    
-}
-
-.bigbox{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10%;
-}
-
-.bigbox p{
-    width: 60%;
-}
-
-.preparo{
-    display: flex;
-    align-items: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.preparo p{
-    padding-top: -10px;
-}
-
-.ingredientes{
-    display: flex;
-    align-items: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.ingredientes ul{
-    list-style: none;
-    padding: 5px;
-}
-
-.butao-salvar{
-    background-color: #FC9981;
-    border-radius: 15px;
 
 }
 
-.box-pesquisa{
+.butao-salvar {
+    background: linear-gradient(to right, #EB8E88, #C94A47);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.butao-salvar:hover {
+    background: linear-gradient(to right, #C94A47, #EB8E88);
+}
+
+
+.box-pesquisa {
     display: flex;
     justify-content: center;
     align-items: center;

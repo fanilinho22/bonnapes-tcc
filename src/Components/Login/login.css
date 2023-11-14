@@ -22,6 +22,11 @@
     border: 3px #144351 solid;
     border-radius: 15px;
     background-color: white;
+    transition: transform 0.3s ease; 
+}
+
+.login-card:hover {
+    transform: scale(1.05); 
 }
 
 .inputas{
@@ -46,15 +51,22 @@
     font-size: 20px;
 }
 
-.login-card button{
+.login-card button {
     color: white;
     background-color: #DF5F57;
     margin-top: 20px;
     border-radius: 15px;
+    border: none;
     height: 35px;
     width: 350px;
     font-size: 20px;
+    transition: background-color 0.3s ease; 
 }
+
+.login-card button:hover {
+    background-color: #C94A47; 
+}
+
 
 .login-card hr{
     margin-top: 20px;
@@ -86,10 +98,15 @@
     color: #025349;
 }
 
-.logo-frame{
+.logo-frame {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 5%;
-   padding-right: 10%; 
+    padding-right: 10%;
+    transition: transform 0.3s ease; 
+}
+
+.logo-frame:hover {
+    transform: scale(1.1); 
 }

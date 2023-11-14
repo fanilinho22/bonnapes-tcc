@@ -1,9 +1,16 @@
 import React, { useState } from 'react';
-import './baixarReceitas.css';
+import { useNavigate } from 'react-router-dom';
+import './calcNutri.css';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
 
 function App() {
+  const navigate = useNavigate();
+  const handleVoltar = () => {
+    // Redirecionar para a página "/home"
+    navigate('/home');
+  };
+
   const [weight, setWeight] = useState('');
   const [height, setHeight] = useState('');
   const [resultIMC, setResultIMC] = useState(null);
@@ -114,10 +121,11 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="calcs">
       <Header />
+      <button onClick={handleVoltar}></button>
       <div className='page-calc'>
-        <h1 className='titulo-calc'>Calculadoras Nutricionais</h1>
+        <h1 className='titulo-calc'>Calculadora Nutricional</h1>
 
         <div className='imc'>
           <div className="containerText">

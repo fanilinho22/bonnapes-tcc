@@ -6,22 +6,54 @@
     height: 700px;
 }
 
+.sugest button {
+    background-color: #DF5F57;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 2%;
+    margin-top: 2%;
+    transition: background-color 0.3s ease;
+}
+
+.sugest button::after {
+    content: '\2190';
+    /* Código unicode para uma seta à esquerda */
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sugest button:hover {
+    background-color: #C94A47;
+}
+
 .sugestoes{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .titulo-sugest{
-    background-color: #FC9981;
+    background-color: #EB8E88;
     width: 40%;
     height: 100%;
     border-radius: 15px;
     font-size: 50px;
+    color: aliceblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.bloco{
+.bloco {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,10 +63,18 @@
     padding-right: 2%;
     border-radius: 15px;
     margin-bottom: 5%;
+    transition: all 0.3s ease; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.receitas-dia{
+.bloco:hover {
+    transform: scale(1.05);
+}
+
+
+.receitas-dia {
     background-color: bisque;
+    color: #555;
     width: 60%;
     height: 100%;
     margin-top: 5%;
@@ -43,4 +83,11 @@
     padding-left: 2%;
     padding-right: 2%;
     border-radius: 15px;
+    transition: all 0.3s ease;  /* Adiciona uma transição suave para a transformação */
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);  /* Adiciona uma sombra padrão */
+}
+
+.receitas-dia:hover {
+    transform: scale(1.05);  /* Adiciona um efeito de escala ao passar o mouse sobre o bloco */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Adiciona uma sombra mais pronunciada no hover */
 }

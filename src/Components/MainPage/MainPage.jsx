@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./mainPage.css"
+import "./mainPage.css";
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import Baner1 from './img/baner1.png'
+import Baner1 from './img/baner1.png';
 
 
 
@@ -28,7 +28,7 @@ function Page() {
                         <a><Link to="/Sugestoes">Sugestão</Link></a>
                     </div>
                     <div className='nav-bar-box'>
-                        <a><Link to="/baixar-receitas">Calculadora nutricional</Link></a>
+                        <a><Link to="/calculadora-nutricional">Calculadora nutricional</Link></a>
                     </div>
                 </div>
 

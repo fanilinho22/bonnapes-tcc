@@ -15,24 +15,30 @@
     justify-content: end;
     height: 70px;
     width: 500px;
-    padding-right: 5px;
+    padding-right: 5%;
     margin-top: 15px;
     margin-bottom: 10px;
     background-color: #0B9B8A;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+    transition: transform 0.3s; /* Adicionando transição de escala */
 }
 
 .nav-bar-box a {
     color: white;
     font-size: 30px;
     text-decoration: none;
-    transition: color 0.3s; /* Transição de cor ao passar o mouse */
+    transition: color 0.3s;
+}
+
+.nav-bar-box:hover {
+    transform: scale(1.05); /* Aumenta o tamanho em 5% ao passar o mouse */
 }
 
 .nav-bar-box a:hover {
-    color: #DF7157; /* Cor do texto quando o mouse passa por cima */
+    color: #DF7157;
 }
+
 
 
 .selection {

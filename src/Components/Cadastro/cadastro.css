@@ -22,6 +22,11 @@
     border: 3px #144351 solid;
     border-radius: 15px;
     background-color: white;
+    transition: transform 0.3s ease;
+}
+
+.cadastro-card:hover {
+    transform: scale(1.05); 
 }
 
 .inputas{
@@ -43,15 +48,22 @@
     font-size: 20px;
 }
 
-.cadastro-card button{
+.cadastro-card button {
     color: white;
     background-color: #DF5F57;
     margin-top: 20px;
     border-radius: 15px;
+    border: none;
     height: 35px;
     width: 350px;
     font-size: 20px;
+    transition: background-color 0.3s ease; 
 }
+
+.cadastro-card button:hover {
+    background-color: #C94A47; 
+}
+
 
 .cadastro-card hr{
     margin-top: 20px;

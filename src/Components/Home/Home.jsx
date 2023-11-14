@@ -23,7 +23,7 @@ function Home() {
                     <div className='titulo-home'>
                         <h1>Quem Somos?</h1>
                     </div>
-                    <p id='nós'>A Bonnape tem a missão de criar um site para auxiliar todas as pessoas que enfrentam
+                    <p id='nós'>A Bonnape tem a missão de criar um sistema para auxiliar todas as pessoas que enfrentam
                         desafios com suas rotinas alimentares devido à falta de tempo e recursos. Nosso objetivo é utilizar
                         os ingredientes disponíveis em casa para fornecer uma variedade de ideias de receitas, além de
                         oferecer suporte para alcançar objetivos relacionados ao corpo, como ganho de massa ou perda de peso.
@@ -108,6 +108,10 @@ function Home() {
                         </p>
                     </div>
                 </div>
+                
+                <div className='frase-efeito'>
+                        <h1>Delícias culinárias ao seu alcance: Bonnape, o seu guia de receitas irresistíveis!</h1>
+                    </div>
             </div>
 
 

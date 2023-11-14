@@ -21,6 +21,7 @@
     display: flex;
     align-items: center;
     padding-left: 20%;
+    margin-right: 5%;
 }
 
 .inicio {
@@ -29,6 +30,8 @@
     justify-content: center;
     flex-direction: row;
     height: 90%;
+    margin-bottom: 5%;
+    margin-top: 2%;
 }
 
 .inicio p {
@@ -83,33 +86,6 @@
     padding-top: 25px;
 }
 
-.titulo-equipe {
-    background-color: #025349;
-    color: white;
-    width: 800px;
-    border-radius: 50px;
-    text-align: center;
-}
-
-.conteiner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%;
-}
-
-.pessoas {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    margin-left: 5%;
-    width: 100%;
-
-}
-
 .pessoas-card {
     width: 150px;
     height: 150px;
@@ -122,47 +98,6 @@
 
 p {
     margin-top: 10px;
-}
-
-.cadaum{
-    padding-left: 10%;
-}
-
-
-.texto-projeto {
-    background-color: #EB8E88;
-    height: 100%;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
-    border-radius: 15px;
-}
-
-.texto-projeto p {
-    font-size: 25px;
-    margin-right: 14px;
-    margin-left: 14px;
-}
-
-.texto-projeto h1 {
-    color: aliceblue;
-    font-size: 40px;
-}
-
-.equipe-conteudo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-}
-
-.final {
-    justify-content: center;
 }
 
 #nós {
@@ -184,11 +119,6 @@ p {
     padding-bottom: 30px;
 }
 
-#nomes {
-    color: black;
-    font-size: 25px;
-}
-
 .titulo-home {
     display: flex;
     justify-content: center;
@@ -205,4 +135,97 @@ p {
 .titulo-home h1 {
     font-size: 50px;
     color: aliceblue;
+}
+
+.final {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 0 auto; /* Adiciona margem para centralizar horizontalmente */
+}
+
+.conteiner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.titulo-equipe h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EB8E88;
+    margin-top: 5%;
+    border-radius: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 80%;
+    height: 70px;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+.equipe-conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Adiciona margem para centralizar horizontalmente */
+}
+
+.pessoas {
+    display: flex;
+    flex-direction: column;
+}
+
+.cima,
+.baixo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.cadaum {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.pessoas-card {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#nomes {
+    margin-bottom: 5px;
+}
+
+.texto-projeto {
+    background-color: #0B9B8A;
+    border-radius: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    max-width: 500px;
+    margin-left: 10%;
+}
+
+.texto-projeto h1 {
+    color: #333;
+    font-size: 40px;
+}
+
+.texto-projeto p {
+    font-size: 25px;
+}
+
+.frase-efeito {
+    text-align: center;
+    margin-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 30px;
 }

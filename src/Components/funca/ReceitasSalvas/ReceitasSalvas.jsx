@@ -1,10 +1,20 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
-import Senao from './senao/Senao'
+import Senao from './senao/Senao';
+import Sesim from './sesim/sesim';
 import Receitas from '../../../DB/receitas.json';
+import './receitasSalvas.css'
 
 function ReceitasSalvas() {
+  const navigate = useNavigate();
+
+  const handleVoltar = () => {
+    // Redirecionar para a página "/home"
+    navigate('/home');
+  };
+
   const [receitasSalvas, setReceitasSalvas] = useState(() => {
     // Tenta obter as receitas salvas do localStorage ao carregar a página
     const savedRecipes = localStorage.getItem('receitasSalvas');
@@ -17,9 +27,11 @@ function ReceitasSalvas() {
   );
 
   return (
-    <div className="ReceitasSalvas">
-      <div className='fundinho'>
-        <Header />
+    <div className="receitasSalvas">
+      <Header />
+
+      <div className='fundinhos'>
+        <button onClick={handleVoltar}></button>
         <div className='box-pesquisa'>
           <h1 className='titulo'>Receitas Salvas</h1>
         </div>
@@ -51,9 +63,12 @@ function ReceitasSalvas() {
         <div>
           {savedRecipesData.length === 0 && <Senao />}
         </div>
+        <div>
+          {savedRecipesData.length > 0 && <Sesim />}
+        </div>
 
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }

@@ -1,7 +1,11 @@
-import "./conversordemedidas.css"
+import './conversordemedidas.css'
 import React, { Component } from 'react';
+import { Link, withRouter } from 'react-router-dom';
+import PesquisaReceita from '../Calcnutri/CalcNutri';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
+import Chef from './img/chef.png';
+import Cozinha from './img/kitchen.png';
 
 class CulinaryConverter extends Component {
   constructor() {
@@ -88,124 +92,138 @@ class CulinaryConverter extends Component {
     this.setState({ spoons: e.target.value }, this.convertSpoonsToGrams);
   };
 
+  handleVoltar = () => {
+    // Redirecionar para a página "/home"
+    window.location.href = '/home';
+  };
+
   render() {
+
     return (
-      <div className='App'>
+      <div className='conversormeto'>
         <Header />
+        <button onClick={this.handleVoltar}></button>
         <div className="diviado">
 
-        <div className="titulo-con">
-          <h2>Conversor de Medidas Culinárias</h2>
+          <div className="divtitulo">
+            <h2 className="titulo-con">Conversor de Medidas Culinárias</h2>
+          </div>
 
-        </div>
+          <div className="divemega">
+            <Link to="/Pesquisar-receitas">
+              <img src={Chef} alt="Chef" />
+            </Link>
 
-        <div className="divasso">
+            <div className="divasso">
 
-          <div className='divo'>
-            <div>
-              <label>
-                Xícaras:
-                <input
-                  type="number"
-                  value={this.state.cups}
-                  onChange={this.handleCupsChange}
-                />
-              </label>
-              {/* {typeof this.state.grams === 'number' && (
+              <div className='divo'>
+                <div>
+                  <label>
+                    Xícaras:
+                    <input
+                      type="number"
+                      value={this.state.cups}
+                      onChange={this.handleCupsChange}
+                    />
+                  </label>
+                  {/* {typeof this.state.grams === 'number' && (
             <p>
               Gramas: {this.state.grams.toFixed(2)}
             </p>
           )} */}
-            </div>
+                </div>
 
-            <div>
-              <label>
-                Gramas:
-                <input
-                  type="number"
-                  value={this.state.grams}
-                  onChange={this.handleGramsChange}
-                />
-              </label>
-              {/* {typeof this.state.cups === 'number' && (
+                <div>
+                  <label>
+                    Gramas:
+                    <input
+                      type="number"
+                      value={this.state.grams}
+                      onChange={this.handleGramsChange}
+                    />
+                  </label>
+                  {/* {typeof this.state.cups === 'number' && (
             <p>
               Xícaras: {this.state.cups.toFixed(2)}
             </p>
           )} */}
-            </div>
+                </div>
 
-          </div>
+              </div>
 
-          <div className='divo'>
-            <div>
-              <label>
-                Litros:
-                <input
-                  type="number"
-                  value={this.state.liters}
-                  onChange={this.handleLitersChange}
-                />
-              </label>
-              {/* {typeof this.state.milliliters === 'number' && (
+              <div className='divo'>
+                <div>
+                  <label>
+                    Litros:
+                    <input
+                      type="number"
+                      value={this.state.liters}
+                      onChange={this.handleLitersChange}
+                    />
+                  </label>
+                  {/* {typeof this.state.milliliters === 'number' && (
             <p>
               Mililitros: {this.state.milliliters.toFixed(2)}
             </p>
           )} */}
-            </div>
+                </div>
 
-            <div>
-              <label>
-                Mililitros:
-                <input
-                  type="number"
-                  value={this.state.milliliters}
-                  onChange={this.handleMillilitersChange}
-                />
-              </label>
-              {/* {typeof this.state.liters === 'number' && (
+                <div>
+                  <label>
+                    Mililitros:
+                    <input
+                      type="number"
+                      value={this.state.milliliters}
+                      onChange={this.handleMillilitersChange}
+                    />
+                  </label>
+                  {/* {typeof this.state.liters === 'number' && (
             <p>
               Litros: {this.state.liters.toFixed(2)}
             </p>
           )} */}
-            </div>
+                </div>
 
-          </div>
+              </div>
 
-          <div className='divo'>
-            <div>
-              <label>
-                Gramas:
-                <input
-                  type="number"
-                  value={this.state.gramsToSpoons}
-                  onChange={this.handleGramsToSpoonsChange}
-                />
-              </label>
-              {/* {typeof this.state.spoons === 'number' && (
+              <div className='divo'>
+                <div>
+                  <label>
+                    Gramas:
+                    <input
+                      type="number"
+                      value={this.state.gramsToSpoons}
+                      onChange={this.handleGramsToSpoonsChange}
+                    />
+                  </label>
+                  {/* {typeof this.state.spoons === 'number' && (
             <p>
               Colheres de chá: {this.state.spoons.toFixed(2)}
             </p>
           )} */}
-            </div>
+                </div>
 
-            <div>
-              <label>
-                Colheres de chá:
-                <input
-                  type="number"
-                  value={this.state.spoons}
-                  onChange={this.handleSpoonsChange}
-                />
-              </label>
-              {/* {typeof this.state.gramsToSpoons === 'number' && (
+                <div>
+                  <label>
+                    Colheres de chá:
+                    <input
+                      type="number"
+                      value={this.state.spoons}
+                      onChange={this.handleSpoonsChange}
+                    />
+                  </label>
+                  {/* {typeof this.state.gramsToSpoons === 'number' && (
             <p>
               Gramas: {this.state.gramsToSpoons.toFixed(2)}
             </p>
           )} */}
+                </div>
+              </div>
             </div>
-
+            <Link to="/Pesquisar-receitas">
+              <img src={Cozinha} alt="Chef" />
+            </Link>
           </div>
-        </div>
         </div>
         <Footer />
       </div>

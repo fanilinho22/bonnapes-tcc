@@ -12,8 +12,6 @@ function Header() {
         <h1>Bonnape</h1>
       </div>
 
-
-
       <div>
         <div className='header_bar'>
           <ul className="nav">

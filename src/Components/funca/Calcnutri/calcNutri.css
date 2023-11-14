@@ -1,6 +1,36 @@
-.App {
+.calcs {
     justify-content: center;
 }
+
+.calcs button {
+    background-color: #DF5F57;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 2%;
+    margin-top: 2%;
+    transition: background-color 0.3s ease;
+}
+
+.calcs button::after {
+    content: '\2190';
+    /* Código unicode para uma seta à esquerda */
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.calcs button:hover {
+    background-color: #C94A47;
+}
+
 
 .page-calc {
     display: flex;
@@ -9,32 +39,8 @@
     flex-direction: column;
 }
 
-.imc {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #0B9B8A;
-    width: 80%;
-    margin-bottom: 2%;
-    margin-top: 2%;
-    border-radius: 15px;
-    padding: 2%;
-}
-
-.tmb {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #0B9B8A;
-    width: 80%;
-    margin-bottom: 2%;
-    margin-top: 2%;
-    border-radius: 15px;
-    padding: 2%;
-}
-
+.imc,
+.tmb,
 .h2o {
     display: flex;
     align-items: center;
@@ -46,6 +52,14 @@
     margin-top: 2%;
     border-radius: 15px;
     padding: 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.imc:hover,
+.tmb:hover,
+.h2o:hover {
+    transform: scale(1.05);
 }
 
 .containerText {
@@ -57,7 +71,7 @@
 }
 
 .containerText h1 {
-    color: black;
+    color: darkslate;
     font-size: 40px;
 }
 
@@ -67,6 +81,7 @@
 
 .containerCalc {
     background-color: #EB8E88;
+    color: #555;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,12 +91,10 @@
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
-    /* Adiciona uma transição suave de 0.3 segundos */
 }
 
 .containerCalc:hover {
     transform: scale(1.05);
-    /* Aumenta ligeiramente o tamanho quando hover */
 }
 
 .containerCalc input {
@@ -148,7 +161,7 @@
     /* Cor do texto quando a opção está selecionada */
 }
 
-.resultCalcs{
+.resultCalcs {
     background-color: aliceblue;
     border-radius: 15px;
     margin-top: 2%;
@@ -158,7 +171,7 @@
     padding-right: 2%;
 }
 
-.result-complex{
+.result-complex {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -166,6 +179,13 @@
 
 }
 
-.titulo-calc{
+.titulo-calc {
+    background-color: #EB8E88;
+    width: 40%;
+    height: 100%;
+    border-radius: 15px;
     font-size: 50px;
+    color: aliceblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
