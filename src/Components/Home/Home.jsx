@@ -14,13 +14,20 @@ import kauã from './img/kauã.png'
 function Home() {
 
     return (
-
-        <div className='Home'>
+        <div className='homes'>
             <Header />
-            <div className='inicio'>
-                <div className='apresenta'>
 
-                    <p id='nós'>Nós da Bonnape trazemos a nossa ideia de criar um site para ajudar todas as pessoas que tem a mesma rotina alimentar por falta de tempo e recurso, utilizaremos aquilo que a pessoa possui em casa para dar várias ideias de receita e podendo até auxiliar ela caso tenha algum tipo de objetivo relacionada ao seu corpo, seja ganhar massa ou perder peso.</p>
+            <div className='inicio'>
+
+                <div className='apresenta'>
+                    <div className='titulo-home'>
+                        <h1>Quem Somos?</h1>
+                    </div>
+                    <p id='nós'>A Bonnape tem a missão de criar um site para auxiliar todas as pessoas que enfrentam
+                        desafios com suas rotinas alimentares devido à falta de tempo e recursos. Nosso objetivo é utilizar
+                        os ingredientes disponíveis em casa para fornecer uma variedade de ideias de receitas, além de
+                        oferecer suporte para alcançar objetivos relacionados ao corpo, como ganho de massa ou perda de peso.
+                        Estamos comprometidos em tornar a alimentação saudável acessível e prática para todos.</p>
                 </div>
 
                 <div className='apresentaImagem'>
@@ -28,7 +35,7 @@ function Home() {
                 </div>
             </div>
 
-            <div className='abaixo'>
+            <div className='abaixos'>
                 <div className='cad'>
                     <div className='pequenos-cards'>
                         <img src={casa} alt="casa" id='gif' />
@@ -52,51 +59,54 @@ function Home() {
                         <img src={dinheiro} alt="dinheiro" id='gif' />
                         <br /> <br />
                         <h1>Renda</h1>
-                        <p id='textinho'> Estamos atualmente desenvolvendo nosso projeto de forma gratuita, mas nossa visão inclui a implementação de planos para aprimorar ainda mais a sua nutrição. Estamos comprometidos em oferecer recursos valiosos para ajudar você a melhorar sua alimentação, e estamos ansiosos para evoluir juntos nessa jornada nutricional</p>
+                        <p id='textinho'> Estamos atualmente desenvolvendo nosso projeto de forma gratuita, mas nossa visão inclui a implementação de planos para aprimorar ainda mais a sua nutrição.</p>
                     </div>
                 </div>
             </div>
 
-            <div className='equipe'>
-                <div className='titulo-equipe'>
-                    <h1>A equipe e o projeto</h1>
-                </div>
-            </div>
-
-            <div className='equipe-conteudo'>
-                <div className='pessoas'>
-                    <div className='cima'>
-                        <div>
-                            <h3 id='nomes'>felipe</h3>
-                            <img src={felipe} alt="felipe" className='pessoas-card' />
-                            <p>Desing & front-dev</p>
-
-                        </div>
-                        <div>
-                            <h3 id='nomes'>daniel</h3>
-                            <img src={daniel} alt="daniel" className='pessoas-card' />
-                            <p>Front-dev & back-dev</p>
-                        </div>
-                    </div>
-                    <div className='baixo'>
-                        <div >
-                            <h3 id='nomes'>saori</h3>
-                            <img src={saori} alt="saori" className='pessoas-card' />
-                            <p>Desing & front-dev</p>
-                        </div>
-                        <div >
-                            <h3 id='nomes'>kauã</h3>
-                            <img src={kauã} alt="kauã" className='pessoas-card' />
-                            <p>Ajuda mt </p>
-                        </div>
+            <div className='final'>
+                <div className='conteiner'>
+                    <div className='titulo-equipe'>
+                        <h1>A equipe e o projeto</h1>
                     </div>
                 </div>
 
-                <div className='texto-projeto'>
-                    <h1>O projeto</h1>
-                    <p>
-                        Nosso projeto é concebido como um sistema nutricional completo. Basta inserir um ingrediente que você tenha em casa, e o sistema gerará uma lista de todas as receitas possíveis com esse alimento. Queremos trazer criatividade para sua alimentação e acabar com a monotonia das receitas que podem se tornar enjoativas na sua rotina!
-                    </p>
+                <div className='equipe-conteudo'>
+
+                    <div className='pessoas'>
+                        <div className='cima'>
+                            <div className='cadaum'>
+                                <h3 id='nomes'>felipe</h3>
+                                <img src={felipe} alt="felipe" className='pessoas-card' />
+                                <p>Desing & front-dev</p>
+
+                            </div>
+                            <div className='cadaum'>
+                                <h3 id='nomes'>daniel</h3>
+                                <img src={daniel} alt="daniel" className='pessoas-card' />
+                                <p>Front-dev & back-dev</p>
+                            </div>
+                        </div>
+                        <div className='baixo'>
+                            <div className='cadaum'>
+                                <h3 id='nomes'>saori</h3>
+                                <img src={saori} alt="saori" className='pessoas-card' />
+                                <p>Desing & front-dev</p>
+                            </div>
+                            <div className='cadaum'>
+                                <h3 id='nomes'>kauã</h3>
+                                <img src={kauã} alt="kauã" className='pessoas-card' />
+                                <p>Documentação e criativo</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='texto-projeto'>
+                        <h1>O projeto</h1>
+                        <p>
+                            Nosso projeto é concebido como um sistema nutricional completo. Basta inserir um ingrediente que você tenha em casa, e o sistema gerará uma lista de todas as receitas possíveis com esse alimento. Queremos trazer criatividade para sua alimentação e acabar com a monotonia das receitas que podem se tornar enjoativas na sua rotina!
+                        </p>
+                    </div>
                 </div>
             </div>
 

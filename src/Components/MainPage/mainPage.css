@@ -1,15 +1,15 @@
-.mainPage{
+.mainPage {
     justify-content: center;
 }
 
-.nav-bar{
+.nav-bar {
     display: flex;
     align-items: start;
     justify-content: center;
     flex-direction: column;
 }
 
-.nav-bar-box{
+.nav-bar-box {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -23,26 +23,26 @@
     border-bottom-right-radius: 25px;
 }
 
-.nav-bar-box a{
+.nav-bar-box a {
     color: white;
     font-size: 30px;
-    text-decoration: none; /* Remova a linha abaixo do texto */
+    text-decoration: none;
     transition: color 0.3s; /* Transição de cor ao passar o mouse */
-  
-    /* Efeito no hover */
-    &:hover {
-      color: #DF7157; /* Cor do texto quando o mouse passa por cima */
-    }
 }
 
-.selection{
+.nav-bar-box a:hover {
+    color: #DF7157; /* Cor do texto quando o mouse passa por cima */
+}
+
+
+.selection {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.imagem{
+.imagem {
     height: 25%;
     width: 25%;
     margin-top: 5%;

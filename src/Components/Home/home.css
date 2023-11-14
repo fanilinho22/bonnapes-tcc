@@ -1,13 +1,19 @@
-.Home {
+.homes {
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.home {
+    justify-content: center;
 }
 
 .apresenta {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     height: auto;
-    width: 600px;
+    width: 90%;
     padding-left: 4%;
 }
 
@@ -22,14 +28,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    height: 700px;
+    height: 90%;
 }
 
 .inicio p {
     font-size: 45px;
 }
 
-.abaixo {
+.abaixos {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,6 +44,7 @@
     width: 90%;
     border-radius: 50px;
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 .cad {
@@ -46,14 +53,28 @@
     justify-content: space-between;
     margin-inline: 5%;
     flex-direction: row;
+    width: 90%;
 
 }
 
 .pequenos-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     color: white;
     background-color: #0B9B8A;
 
 }
+
+.pequenos-cards p {
+    text-align: center;
+}
+
 
 .equipe {
     display: flex;
@@ -67,60 +88,97 @@
     color: white;
     width: 800px;
     border-radius: 50px;
+    text-align: center;
 }
 
-.pessoas{
+.conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.pessoas {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding-top: 50px;
-    margin-left: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 5%;
+    width: 100%;
 
 }
 
-.pessoas-card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border: #025349 1px solid;
-    border-radius: 15%;
-    margin-left: 26px;
-    margin-bottom: 50px;
-    height: 300px;
-    width: 250px;
+.pessoas-card {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
 }
 
-.texto-projeto{
+p {
+    margin-top: 10px;
+}
+
+.cadaum{
+    padding-left: 10%;
+}
+
+
+.texto-projeto {
     background-color: #EB8E88;
-    height: auto;
-    width: 500px;
+    height: 100%;
+    width: 80%;
     margin-left: 10%;
+    margin-right: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
-    border-radius: 15%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 15px;
 }
 
-.texto-projeto p{
-    font-size: 35px;
+.texto-projeto p {
+    font-size: 25px;
     margin-right: 14px;
     margin-left: 14px;
 }
 
-.equipe-conteudo{
-    display: flex;
-    align-items: center;
-    
+.texto-projeto h1 {
+    color: aliceblue;
+    font-size: 40px;
 }
 
-#nós {font-size: 34px;}
+.equipe-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
-#gif {width: 180px;}
+}
 
-#textinho {font-size: 20px;
-padding-left: 10%;
-padding-right: 10%;}
+.final {
+    justify-content: center;
+}
+
+#nós {
+    font-size: 34px;
+}
+
+#gif {
+    width: 180px;
+}
+
+#textinho {
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+}
 
 #empresa {
     padding-bottom: 30px;
@@ -129,4 +187,22 @@ padding-right: 10%;}
 #nomes {
     color: black;
     font-size: 25px;
+}
+
+.titulo-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EB8E88;
+    margin-top: 5%;
+    border-radius: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 80%;
+    height: 70px;
+}
+
+.titulo-home h1 {
+    font-size: 50px;
+    color: aliceblue;
 }

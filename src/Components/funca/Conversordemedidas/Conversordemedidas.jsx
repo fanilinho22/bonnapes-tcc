@@ -92,8 +92,12 @@ class CulinaryConverter extends Component {
     return (
       <div className='App'>
         <Header />
+        <div className="diviado">
 
-        <h2>Conversor de Medidas Culinárias</h2>
+        <div className="titulo-con">
+          <h2>Conversor de Medidas Culinárias</h2>
+
+        </div>
 
         <div className="divasso">
 
@@ -201,6 +205,7 @@ class CulinaryConverter extends Component {
             </div>
 
           </div>
+        </div>
         </div>
         <Footer />
       </div>
