@@ -1,30 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./header.css";
-
-
+import Semilogo from './semelogo.png'
 
 
 function Header() {
   return (
     <div className='header'>
       <div className='logo'>
-        <h1>Bonnape</h1>
+        <img src={Semilogo} alt='Logo da Bona Semilla' />
       </div>
 
       <div>
         <div className='header_bar'>
-          <ul className="nav">
-            <li><Link to="/home">Home</Link></li>
-            <li><Link to="/sobre">Quem somos</Link></li>
-          </ul>
+          <Link to="/home">Home</Link>
+          <Link to="/sobre">Quem somos</Link>
         </div>
       </div>
 
-      <div className="log">
-        <ul className="nav">
-          <li><Link to="/">Sair</Link></li>
-        </ul>
+      <div className="sair">
+        <Link to="/">Sair</Link>
       </div>
     </div>
   )
