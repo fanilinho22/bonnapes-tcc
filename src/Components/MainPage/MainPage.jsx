@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "./mainPage.css";
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import Baner1 from './img/baner1.png';
+import Baner1 from './img/1.png'
 
 
 
@@ -11,9 +11,9 @@ function Page() {
 
     return (
 
-        <div className='mainPage'>
+        <div className='mainP'>
             <Header />
-            <div className='selection'>
+            <div className='select-bar'>
                 <div className='nav-bar'>
                     <div className='nav-bar-box'>
                         <a><Link to="/Pesquisar-receitas">Pesquisar receitas</Link></a>

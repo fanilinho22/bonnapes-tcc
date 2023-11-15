@@ -1,4 +1,4 @@
-.mainPage {
+.mainP {
     justify-content: center;
 }
 
@@ -21,7 +21,8 @@
     background-color: #0B9B8A;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    transition: transform 0.3s; /* Adicionando transição de escala */
+    transition: transform 0.3s;
+    /* Adicionando transição de escala */
 }
 
 .nav-bar-box a {
@@ -32,26 +33,21 @@
 }
 
 .nav-bar-box:hover {
-    transform: scale(1.05); /* Aumenta o tamanho em 5% ao passar o mouse */
+    transform: scale(1.05);
+    /* Aumenta o tamanho em 5% ao passar o mouse */
 }
 
 .nav-bar-box a:hover {
     color: #DF7157;
 }
 
-
-
-.selection {
+.select-bar {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.imagem {
-    height: 25%;
-    width: 25%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 50%;
+.imagem{
+    height: auto;
+    width: 10%;
 }
