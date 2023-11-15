@@ -2,6 +2,12 @@
     justify-content: center;
 }
 
+.select-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .nav-bar {
     display: flex;
     align-items: start;
@@ -41,13 +47,14 @@
     color: #DF7157;
 }
 
-.select-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .imagem{
     height: auto;
-    width: 10%;
+    width: 70%;
+}
+
+.carcel{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 20%;
 }

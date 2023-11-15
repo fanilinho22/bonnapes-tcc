@@ -32,7 +32,7 @@ function Page() {
                     </div>
                 </div>
 
-                <div>
+                <div className='carcel'>
                     <img className='imagem' src={Baner1} alt="Banner" />
                 </div>
             </div>
