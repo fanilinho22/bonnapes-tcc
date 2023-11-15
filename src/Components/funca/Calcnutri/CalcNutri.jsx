@@ -123,7 +123,9 @@ function App() {
   return (
     <div className="calcs">
       <Header />
-      <button onClick={handleVoltar}></button>
+      <div className='somentebotaofoda'>
+        <button onClick={handleVoltar}></button>
+      </div>
       <div className='page-calc'>
         <h1 className='titulo-calc'>Calculadora Nutricional</h1>
 

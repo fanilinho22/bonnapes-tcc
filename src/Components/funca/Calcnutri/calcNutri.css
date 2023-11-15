@@ -2,7 +2,11 @@
     justify-content: center;
 }
 
-.calcs button {
+.somentebotaofoda{
+    justify-content: center;
+}
+
+.somentebotaofoda button {
     background-color: #DF5F57;
     color: white;
     border-radius: 50%;
@@ -17,7 +21,7 @@
     transition: background-color 0.3s ease;
 }
 
-.calcs button::after {
+.somentebotaofoda button::after {
     content: '\2190';
     /* Código unicode para uma seta à esquerda */
     font-size: 24px;
@@ -27,7 +31,7 @@
     transform: translate(-50%, -50%);
 }
 
-.calcs button:hover {
+.somentebotaofoda button:hover {
     background-color: #C94A47;
 }
 

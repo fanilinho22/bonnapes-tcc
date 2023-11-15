@@ -47,14 +47,39 @@
     color: #DF7157;
 }
 
-.imagem{
+.carousel {
+    width: 50%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+  }
+  
+  .image {
+    width: 100%;
     height: auto;
-    width: 70%;
-}
-
-.carcel{
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    margin-right: 20%;
-}
+  }
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+    color: #0B9B8A;
+  }
+  
+  .slick-prev:hover,
+  .slick-next:hover {
+    color: #DF7157;
+  }
+  
+  .slick-dots {
+    bottom: 10px;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 14px;
+    color: #0B9B8A;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #DF7157;
+  }
