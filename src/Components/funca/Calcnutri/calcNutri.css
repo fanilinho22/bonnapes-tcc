@@ -1,5 +1,7 @@
 .calcs {
     justify-content: center;
+    background: rgb(235,142,136);
+    background: linear-gradient(0deg, rgba(235,142,136,1) 0%, rgba(52,160,148,1) 100%);
 }
 
 .somentebotaofoda{
@@ -185,7 +187,7 @@
 
 .titulo-calc {
     background-color: #EB8E88;
-    width: 40%;
+    width: 50%;
     height: 100%;
     border-radius: 15px;
     font-size: 50px;

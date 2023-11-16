@@ -1,9 +1,7 @@
 .conversormeto {
     justify-content: center;
-    background-color: #0B9B8A;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    height: 500px;
+    background: rgb(52,160,148);
+    background: linear-gradient(0deg, rgba(52,160,148,1) 0%, rgba(235,142,136,1) 100%);
 }
 
 .conversormeto button {
@@ -42,7 +40,7 @@
     justify-content: space-around;
     flex-direction: row;
     height: 100%;
-    width: 60%;
+    width: 70%;
     border-radius: 15px;
     margin-bottom: 5%;
     padding-top: 2%;

@@ -8,7 +8,9 @@ function Header() {
   return (
     <div className='header'>
       <div className='logo'>
-        <img src={Semilogo} alt='Logo da Bona Semilla' />
+        <Link to="/home">
+          <img src={Semilogo} alt='Logo da Bona Semilla' />
+        </Link>
       </div>
 
       <div>

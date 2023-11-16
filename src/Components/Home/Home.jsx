@@ -20,9 +20,8 @@ function Home() {
             <div className='inicio'>
 
                 <div className='apresenta'>
-                    <div className='titulo-home'>
-                        <h1>Quem Somos?</h1>
-                    </div>
+                    <h1 className='titulo-home'>Quem Somos?</h1>
+
                     <p id='nós'>A Bonnape tem a missão de criar um sistema para auxiliar todas as pessoas que enfrentam
                         desafios com suas rotinas alimentares devido à falta de tempo e recursos. Nosso objetivo é utilizar
                         os ingredientes disponíveis em casa para fornecer uma variedade de ideias de receitas, além de
@@ -66,9 +65,9 @@ function Home() {
 
             <div className='final'>
                 <div className='conteiner'>
-                    <div className='titulo-equipe'>
-                        <h1>A equipe e o projeto</h1>
-                    </div>
+
+                    <h1 className='titulo-equipe'>A equipe e o projeto</h1>
+
                 </div>
 
                 <div className='equipe-conteudo'>
@@ -108,10 +107,10 @@ function Home() {
                         </p>
                     </div>
                 </div>
-                
+
                 <div className='frase-efeito'>
-                        <h1>Delícias culinárias ao seu alcance: Bonnape, o seu guia de receitas irresistíveis!</h1>
-                    </div>
+                    <h1>Delícias culinárias ao seu alcance: Bonnape, o seu guia de receitas irresistíveis!</h1>
+                </div>
             </div>
 
 

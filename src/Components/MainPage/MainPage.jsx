@@ -34,6 +34,7 @@ function mainPage() {
 
         <div className='mainP'>
             <Header />
+
             <div className='select-bar'>
                 <div className='nav-bar'>
                     <div className='nav-bar-box'>
