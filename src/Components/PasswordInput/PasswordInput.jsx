@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
-import './passwordInput.css'
+import './passwordInput.css';
 
-function PasswordInput() {
-  const [password, setPassword] = useState('');
+function PasswordInput({ id, value, onChange }) {
   const [showPassword, setShowPassword] = useState(false);
 
   const togglePasswordVisibility = () => {
@@ -15,9 +14,9 @@ function PasswordInput() {
       <div className="password-input">
         <input
           type={showPassword ? 'text' : 'password'}
-          id="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
+          id={id}
+          value={value}
+          onChange={onChange} // Agora, o evento de mudança é repassado ao componente pai
         />
         <span onClick={togglePasswordVisibility}>
           {showPassword ? <FaEyeSlash /> : <FaEye />}
