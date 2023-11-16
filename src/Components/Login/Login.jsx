@@ -22,15 +22,17 @@ function Login() {
     const handleLogin = () => {
         // Obtendo os usuários do localStorage
         const usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
-
+    
         // Verificando se o e-mail e a senha correspondem a um usuário registrado
         const usuarioEncontrado = usuarios.find(
             (user) => user.email === formData.email && user.senha === formData.senha
         );
-
+    
         if (usuarioEncontrado) {
+            // Salvando informações do usuário no localStorage
+            localStorage.setItem('usuarioLogado', JSON.stringify(usuarioEncontrado));
             alert('Login bem-sucedido!');
-            navigate('/home');
+            navigate('/home');  // Redireciona para a página de perfil
         } else {
             alert('E-mail ou senha incorretos. Por favor, tente novamente.');
         }

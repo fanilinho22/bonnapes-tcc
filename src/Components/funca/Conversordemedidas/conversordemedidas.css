@@ -2,6 +2,7 @@
     justify-content: center;
     background: rgb(52,160,148);
     background: linear-gradient(0deg, rgba(52,160,148,1) 0%, rgba(235,142,136,1) 100%);
+    min-height: 100vh;
 }
 
 .conversormeto button {

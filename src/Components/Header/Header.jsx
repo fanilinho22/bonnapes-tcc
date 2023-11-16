@@ -17,6 +17,7 @@ function Header() {
         <div className='header_bar'>
           <Link to="/home">Home</Link>
           <Link to="/sobre">Quem somos</Link>
+          <Link to="/usuario">Perfil</Link>
         </div>
       </div>
 
