@@ -10,6 +10,7 @@ import ReceitasSalvas from "./Components/funca/ReceitasSalvas/ReceitasSalvas"
 import Sugestoes from "./Components/funca/Sugestoes/Sugestoes"
 import CalcNutri from "./Components/funca/Calcnutri/CalcNutri"
 
+
 export default function Routas() {
     return (
 
@@ -25,7 +26,6 @@ export default function Routas() {
                 <Route element={<PesquisaReceita />} path="/Pesquisar-receitas" />
                 <Route element={<ReceitasSalvas />} path="/Receitas-salvas" />
                 <Route element={<Sugestoes />} path="/Sugestoes" />
-
             </Routes>
         </BrowserRouter>
     )

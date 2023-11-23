@@ -47,7 +47,7 @@ function mainPage() {
                         <a><Link to="/conversor-de-medida">Conversor de medidas</Link></a>
                     </div>
                     <div className='nav-bar-box'>
-                        <a><Link to="/Sugestoes">Sugestão</Link></a>
+                        <a><Link to="/Sugestoes">Sugestão do dia</Link></a>
                     </div>
                     <div className='nav-bar-box'>
                         <a><Link to="/calculadora-nutricional">Calculadora nutricional</Link></a>
