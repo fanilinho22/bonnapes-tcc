@@ -56,7 +56,7 @@ function App() {
       <Header />
       <div className='fundinho'>
         <div className='somenteparaamerdadobotao'>
-        <button onClick={handleVoltar}></button>
+          <button onClick={handleVoltar}></button>
         </div>
 
         <div className='box-pesquisa'>

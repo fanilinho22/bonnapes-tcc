@@ -28,7 +28,7 @@ function Cadastro() {
         const usuarioPadrao = { email: 'adm', senha: '123' };
         usuarios.push(usuarioPadrao);
 
-        // Adicionando o usuário do formulário (se fornecido)
+        // Adicionando o usuário do formulário 
         if (formData.nome && formData.email && formData.senha) {
             usuarios.push(formData);
         }
